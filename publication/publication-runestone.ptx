@@ -34,11 +34,11 @@
     <!-- HTML-Specific Options -->
     <html>
         <platform host="runestone"/>
-        <calculator model="geogebra-graphing"/>
+        <!-- <calculator model="geogebra-graphing"/> -->
         <index-page ref="linear-algebra"/>
         <video privacy="yes"/>
         <!-- baseurl should not have a trailing slash -->
-        <baseurl href="https://opentext.uleth.ca/Math3410"/>
+        <!-- <baseurl href="https://opentext.uleth.ca/Math3410"/> -->
         <knowl example="no" exercise-inline="no"/>
     </html>
     <!-- PDF-Specific Options -->
