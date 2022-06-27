@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="sec-lin-tran-intro">
+  <title>Definition and examples</title>
+
+  <p>
+    Let <m>V</m> and <m>W</m> be vector spaces. At their most basic,
+    all vector spaces are sets. Given any two sets, we can consider functions from one to the other.
+    The functions of interest in linear algebra are those that respect the vector space structure of the sets.
+  </p>
+
+  <definition xml:id="def-lin-trans">
+    <statement>
+      <p>
+        Let <m>V</m> and <m>W</m> be vector spaces.
+        A function <m>T:V\to W</m> is called a <term>linear transformation</term> if:
+        <ol>
+          <li>
+            <p>
+              For all <m>\vv_1,\vv_2\in V</m>, <m>T(\vv_1+\vv_2)=T(\vv_1)+T(\vv_2)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For all <m>\vv\in V</m> and scalars <m>c</m>, <m>T(c\vv)=cT(\vv)</m>.
+            </p>
+          </li>
+        </ol>
+        We often use the term <term>linear operator</term>
+        to refer to a linear transformation <m>T:V\to V</m> from a vector space to itself.
+      </p>
+    </statement>
+  </definition>
+
+  <aside>
+    <p>
+      Note on notation: it is common usage to drop the usual parentheses of function notation
+      when working with linear transformations, as long as this does not cause confusion.
+      That is, one might write <m>T\vv</m> instead of <m>T(\vv)</m>,
+      but one should never write <m>T\vv+\ww</m> in place of <m>T(\vv+\ww)</m>,
+      for the same reason that one should never write <m>2x+y</m> in place of <m>2(x+y)</m>.
+      Mathematicians often think of linear transformations in terms of matrix multiplication,
+      which probably explains this notation to some extent.
+    </p>
+  </aside>
+
+  <p>
+    The properties of a linear transformation tell us that a linear map <m>T</m>
+    <em>preserves</em> the operations of addition and scalar multiplication.
+    (When the domain and codomain are different vector spaces, we might say that <m>T</m> <em>intertwines</em>
+    the operations of the two vector spaces.)
+    In particular, any linear transformation <m>T</m> must preserve the zero vector,
+    and respect linear combinations.
+  </p>
+
+  <theorem xml:id="thm-lt-props">
+    <statement>
+      <p>
+        Let <m>T:V\to W</m> be a linear transformation. Then
+        <ol>
+          <li>
+            <p>
+              <m>T(\zer_V) = \zer_W</m>, and
+            </p>
+          </li>
+          <li>
+            <p>
+              For any scalars <m>c_1,\ldots, c_n</m> and vectors <m>\vv_1,\ldots, \vv_n\in V</m>,
+              <me>
+                T(c_1\vv_1+c_2\vv_2+\cdots + c_n\vv_n) = c_1T(\vv_1)+c_2T(\vv_2)+\cdots + c_nT(\vv_n)
+              </me>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        For the first part, remember that old trick we've used a couple of times before:
+        <m>\zer + \zer = \zer</m>. What happens if you apply <m>T</m> to both sides of this equation?
+      </p>
+      <p>
+        For the second part, note that the addition property of a linear transformation looks an awful lot like a distributive property,
+        and we can distribute over a sum of three or more vectors using the associative property.
+        You'll want to deal with the addition first, and then the scalar multiplication.
+      </p>
+    </proof>
+
+    <proof>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Since <m>\zer_V+\zer_V = \zer_V</m>, we have
+              <me>
+                T(\zer_V) = T(\zer_V+\zer_V) = T(\zer_V)+T(\zer_V)
+              </me>.
+              Adding <m>-T(\zer_V)</m> to both sides of the above gives us <m>\zer_W = T(\zer_V)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The addition property of a linear transformation can be extended to sums of three or more vectors using associativity.
+              Therefore, we have
+              <md>
+                <mrow>T(c_1\vv_1+\cdots + c_n\vv_n) \amp = T(c_1\vv_1)+ \cdots + T(c_n\vv_n)</mrow>
+                <mrow> \amp = c_1T(\vv_1)+\cdots +c_nT(\vv_n)</mrow>
+              </md>,
+              where the second line follows from the scalar multiplication property.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </proof>
+  </theorem>
+
+  <remark>
+    <statement>
+      <p>
+        Technically, we skipped over some details in the above proof:
+        how exactly, is associativity being applied?
+        It turns out there's actually a proof by induction lurking in the background!
+      </p>
+
+      <p>
+        By definition, we know that <m>T(\vv_1+\vv_2)=T(\vv_1)+T(\vv_2)</m>.
+        For three vectors,
+        <md>
+          <mrow>T(\vv_1+\vv_2+\vv_3) \amp = T(\vv_1+(\vv_2+\vv_3))</mrow>
+          <mrow> \amp = T(\vv_1)+T(\vv_2+\vv_3)</mrow>
+          <mrow> \amp = T(\vv_1)+(T(\vv_2)+T(\vv_3))</mrow>
+          <mrow> \amp = T(\vv_1)+T(\vv_2)+T(\vv_3)</mrow>
+        </md>.
+      </p>
+
+      <p>
+        For an abitrary number of vectors <m>n\geq 3</m>,
+        we can assume that distribution over addition works for <m>n-1</m> vectors,
+        and then use associativity to write
+        <me>
+          \vv_1+\vv_2+\cdots +\vv_n = \vv_1+(\vv_2+\cdots +\vv_n)
+        </me>.
+        The right-hand side is technically a sum of two vectors,
+        so we can apply the definition of a linear transformation directly,
+        and then apply our induction hypothesis to <m>T(\vv_2+\cdots + \vv_n)</m>.
+      </p>
+    </statement>
+  </remark>
+
+  <example xml:id="ex-matrix-trans">
+    <statement>
+      <p>
+        Let <m>V=\R^n</m> and let <m>W=\R^m</m>.
+        For any <m>m\times n</m> matrix <m>A</m>, the map <m>T_A:\R^n\to \R^m</m> defined by
+        <me>
+          T_A(\xx) = A\xx
+        </me>
+        is a linear transformation. (This follows immediately from properties of matrix multiplication.)
+      </p>
+
+      <p>
+        Let <m>B = \{\mathbf{e}_1,\ldots, \mathbf{e}_n\}</m> denote the standard basis of <m>\R^n</m>.
+        (See <xref ref="ex-standard-bases"/>.)
+        Recall (or convince yourself, with a couple of examples)
+        that <m>A\mathbf{e}_i</m> is equal to the <m>i</m>th column of <m>A</m>.
+        Thus, if we know the value of a linear transformation <m>T:\R^n\to \R^m</m> on each basis vector,
+        we can immediately determine the matrix <m>A</m> such that <m>T=T_A</m>:
+        <me>
+          A = \bbm T(\mathbf{e}_1) \amp T(\mathbf{e}_2) \amp \cdots \amp T(\mathbf{e}_n)\ebm
+        </me>.
+        This is true because <m>T</m> and <m>T_A</m> agree on the standard basis: for each <m>i=1,2,\ldots, n</m>,
+        <me>
+          T_A(\mathbf{e}_i) = A\mathbf{e}_i = T(\mathbf{e}_i)
+        </me>.
+        Moreover, if two linear transformations agree on a basis, they must be equal.
+        Given any <m>\xx\in \R^n</m>, we can write <m>\xx</m> uniquely as a linear combination
+        <me>
+          \xx=c_1\mathbf{e}_1+c_2\mathbf{e}_2+\cdots + c_n\mathbf{e}_n.
+        </me>
+        If <m>T(\mathbf{e}_i)=T_A(\mathbf{e}_i)</m> for each <m>i</m>, then by <xref ref="thm-lt-props"/> we have
+        <md>
+          <mrow>T(\xx) \amp = T(c_1\mathbf{e}_1+c_2\mathbf{e}_2+\cdots + c_n\mathbf{e}_n) </mrow>
+          <mrow> \amp = c_1T(\mathbf{e}_1)+c_2T(\mathbf{e}_2)+\cdots + c_nT(\mathbf{e}_n)</mrow>
+          <mrow> \amp = c_1T_A(\mathbf{e}_1)+c_2T_A(\mathbf{e}_2)+\cdots + c_nT_A(\mathbf{e}_n)</mrow>
+          <mrow> \amp = T_A(c_1\mathbf{e}_1+c_2\mathbf{e}_2+\cdots + c_n\mathbf{e}_n) </mrow>
+          <mrow> \amp = T_A(\xx)</mrow>
+        </md>.
+      </p>
+    </statement>
+  </example>
+
+  <p>
+    Let's look at some other examples of linear transformations.
+    <ul>
+      <li>
+        <p>
+          For any vector spaces <m>V,W</m> we can define the <term>zero transformation</term> <m>0:V\to W</m>
+          by <m>0(\vv)=\zer</m> for all <m>\vv\in V</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          On any vector space <m>V</m> we have the <term>identity transformation</term>
+          <m>1_V:V\to V</m> defined by <m>1_V(\vv)=\vv</m> for all <m>\vv\in V</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Let <m>V = F[a,b]</m> be the space of all functions <m>f:[a,b]\to \R</m>.
+          For any <m>c\in [a,b]</m> we have the <term>evaluation map</term>
+          <m>E_a: V\to \R</m> defined by <m>E_a(f) = f(a)</m>.
+        </p>
+
+        <p>
+          To see that this is linear, note that <m>E_a(0)=\zer(a)=0</m>,
+          where <m>\zer</m> denotes the zero function;
+          for any <m>f,g\in V</m>,
+          <me>
+            E_a(f+g)=(f+g)(a)=f(a)+g(a)=E_a(f)+E_a(g)
+          </me>,
+           and for any scalar <m>c\in \R</m>,
+           <me>
+             E_a(cf) = (cf)(a) = c(f(a))=cE_a(f)
+           </me>.
+        </p>
+
+        <p>
+          Note that the evaluation map can similarly be defined as a linear transformation on any vector space of polynomials.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          On the vector space <m>C[a,b]</m> of all <em>continuous</em> functions on <m>[a,b]</m>,
+          we have the integration map <m>I:C[a,b]\to \R</m> defined by
+          <m>I(f)=\int_a^b f(x)\,dx</m>. The fact that this is a linear map follows from properties of integrals proved in a calculus class.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          On the vector space <m>C^1(a,b)</m> of continuously differentiable functions on <m>(a,b)</m>,
+          we have the differentiation map <m>D: C^1(a,b)\to C(a,b)</m> defined by
+          <m>D(f) = f'</m>. Again, linearity follows from properties of the derivative.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Let <m>\R^\infty</m> denote the set of sequences <m>(a_1,a_2,a_3,\ldots)</m> of real numbers,
+          with term-by-term addition and scalar multiplication.
+          The shift operators
+          <md>
+            <mrow>S_L(a_1,a_2,a_3,\ldots)  \amp = (a_2,a_3,a_4,\ldots) </mrow>
+            <mrow>S_R(a_1,a_2,a_3,\ldots) \amp = (0,a_1,a_2,\ldots)</mrow>
+          </md>
+          are both linear.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          On the space <m>M_{mn}(\R)</m> of <m>m\times n</m> matrices,
+          the trace defines a linear map <m>\operatorname{tr}:M_{mn}(\R)\to \R</m>,
+          and the transpose defines a linear map <m>T:M_{mn}(\R)\to M_{nm}(\R)</m>.
+          The determinant and inverse operations on <m>M_{nn}</m> are <em>not</em> linear.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <exercise>
+    <statement>
+      <p>
+        Which of the following are linear transformations?
+      </p>
+    </statement>
+    <choices randomize="yes">
+      <choice correct="no">
+        <statement>
+          <p>
+            The function <m>T:\R^2\to \R^2</m> given by <m>T(x,y)=(x-y, x+2y+1)</m>.
+          </p>
+        </statement>
+        <feedback>
+          <p>
+            Since <m>T(0,0)=(0,1)\neq (0,0)</m>, this can't be a linear transformation.
+          </p>
+        </feedback>
+      </choice>
+      <choice correct="yes">
+        <statement>
+          <p>
+            The function <m>f:P_2(\R)\to \R^2</m> given by <m>f(p(x))=(p(1),p(2))</m>.
+          </p>
+        </statement>
+        <feedback>
+          <p>
+            This looks unusual, but it's linear!
+            You can check that <m>f(p(x)+q(x))=f(p(x))+f(q(x))</m>, and <m>f(cp(x))=cf(p(x))</m>.
+          </p>
+        </feedback>
+      </choice>
+      <choice correct="no">
+        <statement>
+          <p>
+            The function <m>g:\R^2\to \R^2</m> given by <m>g(x,y)=(2x-y,2xy)</m>.
+          </p>
+        </statement>
+        <feedback>
+          <p>
+            Although this function preserves the zero vector,
+            it doesn't preserve addition or scalar multiplication.
+            For example, <m>g(1,0)+g(0,1)=(2,0)+(-1,0)=(1,0)</m>,
+            but <m>g((1,0)+(0,1))=g(1,1)=(1,2)</m>.
+          </p>
+        </feedback>
+      </choice>
+      <choice correct="yes">
+        <statement>
+          <p>
+            The function <m>M:P_2(\R)\to P_3(\R)</m> given by <m>M(p(x))=xp(x)</m>.
+          </p>
+        </statement>
+        <feedback>
+          <p>
+            Multiplication by <m>x</m> might feel non-linear,
+            but remember that <m>x</m> is not a <q>variable</q> as far as the transformation is concerned!
+            It's more of a placeholder. Try checking the definition directly.
+          </p>
+        </feedback>
+      </choice>
+      <choice correct="no">
+        <statement>
+          <p>
+            The function <m>D:M_{2\times 2}(\R)\to\R</m> given by <m>D(A)=\det(A)</m>.
+          </p>
+        </statement>
+        <feedback>
+          <p>
+            Remember that <m>\det(A+B)\neq \det(A)+\det(B)</m> in general!
+          </p>
+        </feedback>
+      </choice>
+      <choice correct="yes">
+        <statement>
+          <p>
+            The function <m>f:\R\to V</m> given by <m>f(x)=e^x</m>,
+            where <m>V=(0,\infty)</m>, with the vector space structure defined in <xref ref="ex-positive-reals-vecsp"/>.
+          </p>
+        </statement>
+        <feedback>
+          <p>
+            An exponential function that's linear? Seems impossible,
+            but remember that <q>addition</q> <m>x\oplus y</m> in <m>V</m> is really multiplication,
+            so <m>f(x+y)=e^{x+y}=e^xe^y=f(x)\oplus f(y)</m>, and similarly, <m>f(cx)=c\odot f(x)</m>.
+          </p>
+        </feedback>
+      </choice>
+    </choices>
+    <hint>
+      <p>
+        Usually, you can expect a linear transformation to involve homogeneous linear expressions.
+        Things like products, powers, and added constants are usually clues that something is nonlinear.
+      </p>
+    </hint>
+  </exercise>
+
+  <p>
+    For finite-dimensional vector spaces, it is often convenient to work in terms of a basis.
+    The properties of a linear transformation tell us that we can completely define any linear transformation by giving its values on a basis.
+    In fact, it's enough to know the value of a transformation on a spanning set.
+    The argument given in <xref ref="ex-matrix-trans"/> can be applied to any linear transformation, to obtain the following result.
+  </p>
+
+  <theorem xml:id="thm-agree-span">
+    <statement>
+      <p>
+        Let <m>T:V\to W</m> and <m>S:V\to W</m> be two linear transformations.
+        If <m>V = \spn\{\vv_1,\ldots, \vv_n\}</m> and <m>T(\vv_i)=S(\vv_i)</m>
+        for each <m>i=1,2,\ldots, n</m>, then <m>T=S</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <p>
+    <alert>Caution:</alert> If the above spanning set is not also independent,
+    then we can't just define the values <m>T(\vv_i)</m> however we want.
+    For example, suppose we want to define <m>T:\R^2\to\R^2</m>,
+    and we set <m>\R^2=\spn\{(1,2),(4,-1),(5,1)\}</m>.
+    If <m>T(1,2)=(3,4)</m> and <m>T(4,-1)=(-2,2)</m>,
+    then we <em>must</em> have <m>T(5,1)=(1,6)</m>.
+    Why? Because <m>(5,1)=(1,2)+(4,1)</m>, and if <m>T</m> is to be linear,
+    then we have to have <m>T((1,2)+(4,-1))=T(1,2)+T(4,-1)</m>.
+  </p>
+
+  <remark>
+    <statement>
+      <p>
+        If for some reason we already know that our transformation is linear,
+        we might still be concerned about the fact that if a spanning set is not independent,
+        there will be more than one way to express a vector as linear combination of vectors in that set.
+        If we define <m>T</m> by giving its values on a spanning set, will it be well-defined?
+        (That is, could we get two different values for <m>T(\vv)</m> by expressing <m>\vv</m> in terms of the spanning set in two different ways?)
+        Suppose that we have scalars <m>a_1,\ldots, a_n, b_1,\ldots, b_n</m> such that
+        <md>
+          <mrow>\vv \amp = a_1\vv_1+\cdots + a_n\vv_n \quad \text{ and }</mrow>
+          <mrow>\vv \amp = b_1\vv_1+\cdots + b_n\vv_n</mrow>
+        </md>
+        We then have
+        <md>
+          <mrow>a_1T(\vv_1)+\cdots + a_nT(\vv_n) \amp =T(a_1\vv_1+\cdots + a_n\vv_n) </mrow>
+          <mrow> \amp =T(b_1\vv_1+\cdots +b_n\vv_n)</mrow>
+          <mrow>  \amp =b_1T(\vv_1)+\cdots +b_nT(\vv_n)</mrow>
+        </md>.
+      </p>
+
+      <p>
+        Of course, we can avoid all of this unpleasantness by using a <em>basis</em>
+        to define a transformation. Given a basis <m>B = \{\vv_1,\ldots, \vv_n\}</m>
+        for a vector space <m>V</m>, we can define a transformation <m>T:V\to W</m>
+        by setting <m>T(\vv_i)=\ww_i</m> for some choice of vectors <m>\ww_1,\ldots, \ww_n</m>
+        and defining
+        <me>
+          T(c_1\vv_1+\cdots +c_n\vv_n)=c_1T(\vv_1)+\cdots + c_nT(\vv_n)
+        </me>.
+        Because each vector <m>\vv\in V</m> can be written <em>uniquely</em> in terms of a basis,
+        we know that our transformation is well-defined.
+      </p>
+    </statement>
+  </remark>
+
+  <p>
+    The next theorem seems like an obvious consequence of the above,
+    and indeed, one might wonder where the assumption of a basis is needed.
+    The distinction here is that the vectors <m>\ww_1,\ldots, \ww_n\in W</m>
+    are chosen in advance, and then we <em>define</em> <m>T</m> by setting <m>T(\mathbf{b}_i)=\ww_i</m>,
+    rather than simply defining each <m>\ww_i</m> as <m>T(\mathbf{b}_i)</m>.
+  </p>
+
+  <theorem xml:id="thm-define-using-basis">
+    <statement>
+      <p>
+        Let <m>V,W</m> be vector spaces. Let <m>B=\{\mathbf{b}_1,\ldots, \mathbf{b}_n\}</m>
+        be a basis of <m>V</m>, and let <m>\ww_1,\ldots, \ww_n</m> be any vectors in <m>W</m>.
+        (These vectors need not be distinct.)
+        Then there exists a unique linear transformation <m>T:V\to W</m> such that
+        <m>T(\mathbf{b}_i)=\ww_i</m> for each <m>i=1,2,\ldots, n</m>; indeed,
+        we can define <m>T</m> as follows:
+        given <m>\vv\in V</m>, write <m>\vv=c_1\vv_1+\cdots +c_n\vv_n</m>. Then
+        <me>
+          T(\vv)=T(c_1\vv_1+\cdots + c_n\vv_n) = c_1\ww_1+\cdots +c_n\ww_n
+        </me>.
+      </p>
+    </statement>
+  </theorem>
+
+  <p>
+    With the basic theory out of the way, let's look at a few basic examples.
+  </p>
+
+  <exercise>
+    <statement>
+      <p>
+        Suppose <m>T:\R^2\to \R^2</m> is a linear transformation.
+        If <m>T\bbm 1\\0\ebm = \bbm 3\\-4\ebm</m> and <m>T\bbm 0\\1\ebm =\bbm 5\\2\ebm</m>,
+        find <m>T\bbm -2\\4\ebm</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Since we know the value of <m>T</m> on the standard basis,
+        we can use properties of linear transformations to immediately obtain the answer:
+        <md>
+          <mrow>T\bbm -2\\4\ebm \amp= T\left(-2\bbm 1\\0\ebm +4\bbm 0\\1\ebm\right)</mrow>
+          <mrow> \amp = -2T\bbm1\\0\ebm+4T\bbm 0\\1\ebm</mrow>
+          <mrow> \amp = -2\bbm 3\\-4\ebm +4\bbm 5\\2\ebm</mrow>
+          <mrow> \amp = \bbm 14\\16\ebm</mrow>
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Suppose <m>T:\R^2\to \R^2</m> is a linear transformation.
+        Given that <m>T\bbm 3\\1\ebm = \bbm 1\\4\ebm</m>
+        and <m>T\bbm 2\\-5\ebm = \bbm 2\\-1\ebm</m>,
+        find <m>T\bbm 4\\3\ebm</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        At first, this example looks the same as the one above,
+        and to some extent, it is. The difference is that this time,
+        we're given the values of <m>T</m> on a basis that is not the standard one.
+        This means we first have to do some work to determine how to write the given vector in terms of the given basis.
+      </p>
+
+      <p>
+        Suppose we have <m>a\bbm 3\\1\ebm+b\bbm 2\\-5\ebm = \bbm 4\\3\ebm</m>
+        for scalars <m>a,b</m>. This is equivalent to the matrix equation
+        <me>
+          \bbm 3\amp 2\\1\amp -5\ebm\bbm a\\b\ebm = \bbm 4\\3\ebm.
+        </me>
+        Solving (perhaps using the code cell below), we get <m>a=\frac{26}{17}, b = -\frac{5}{17}</m>.
+      </p>
+
+      <sage>
+        <input>
+          from sympy import Matrix,init_printing
+          init_printing()
+          A = Matrix(2,2,[3,2,1,-5])
+          B = Matrix(2,1,[4,3])
+          (A**-1)*B
+        </input>
+        <output>
+          \[\bbm \frac{26}{17}\\-\frac{5}{17}\ebm\]
+        </output>
+      </sage>
+
+      <p>
+        Therefore,
+        <me>
+          T\bbm 4\\3\ebm = \frac{26}{17}\bbm 1\\4\ebm -\frac{5}{17}\bbm 2\\-1\ebm = \bbm 16/17\\109/17\ebm
+        </me>.
+      </p>
+    </solution>
+  </exercise>
+
+
+
+  <exercise>
+    <statement>
+      <p>
+        Suppose <m>T:P_2(\R)\to \R</m> is defined by
+        <me>
+          T(x+2)=1, T(1)=5, T(x^2+x)=0.
+        </me>
+        Find <m>T(2-x+3x^2)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We need to find scalars <m>a,b,c</m> such that
+        <me>
+          2-x+3x^2 = a(x+2)+b(1)+c(x^2+x)
+        </me>.
+        We could set up a system and solve, but this time it's easy enough to just work our way through.
+        We must have <m>c=3</m>, to get the correct coefficient for <m>x^2</m>. This gives
+        <me>
+          2-x+3x^2=a(x+2)+b(1)+3x^2+3x
+        </me>.
+        Now, we have to have <m>3x+ax=-x</m>, so <m>a=-4</m>.
+        Putting this in, we get
+        <me>
+          2-x+3x^2=-4x-8+b+3x^2+3x
+        </me>.
+        Simiplifying this leaves us with <m>b=10</m>. Finally, we find:
+        <md>
+          <mrow>T(2-x+3x^2) \amp = T(-4(x+2)+10(1)+3(x^2+x)) </mrow>
+          <mrow> \amp = -4T(x+2)+10T(1)+3T(x^2+x)</mrow>
+          <mrow> \amp = -4(1)+10(5)+3(0) = 46</mrow>
+        </md>.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Find a linear transformation <m>T:\R^2\to \R^3</m> such that
+        <me>
+          T(1,2)=(1,1,0) \quad \text{ and } \quad T(-1,1) = (0,2,-1)
+        </me>.
+        Then, determine the value of <m>T(3,2)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Since <m>\{(1,2),(-1,1)\}</m> forms a basis of <m>\R^2</m>
+        (the vectors are not parallel and there are two of them),
+        it suffices to determine how to write a general vector in terms of this basis.
+        Suppose
+        <me>
+          x(1,2)+y(-1,1)=(a,b)
+        </me>
+        for a general element <m>(a,b)\in \R^2</m>.
+        This is equivalent to the matrix equation <m>\bbm 1\amp -1\\2\amp 1\ebm\bbm x\\y\ebm = \bbm a\\b\ebm</m>,
+        which we can solve as <m>\bbm x\\y\ebm = \bbm 1\amp -1\\2\amp 1\ebm^{-1}\bbm a\\b\ebm</m>:
+      </p>
+
+      <sage>
+        <input>
+          from sympy import Matrix, init_printing, symbols
+          init_printing()
+          a, b = symbols('a b', real = True, constant = True)
+          A = Matrix(2,2,[1,-1,2,1])
+          B = Matrix(2,1,[a,b])
+          (A**-1)*B
+        </input>
+        <output>
+          \[\bbm \frac{a}{3}+\frac{b}{3}\\-\frac{2a}{3}+\frac{b}{3}\ebm\]
+        </output>
+      </sage>
+
+      <p>
+        This gives us the result
+        <me>
+          (a,b) = \frac13(a+b)\cdot (1,2)+\frac13(-2a+b)\cdot (-1,1).
+        </me>
+        Thus,
+        <md>
+          <mrow>T(a,b) \amp = \frac13(a+b)\cdot T(1,2)+\frac13(-2a+b)\cdot T(-1,1) </mrow>
+          <mrow> \amp = \frac13(a+b)\cdot (1,1,0)+\frac13(-2a+b)\cdot (0,2,-1)</mrow>
+          <mrow> \amp = \left(\frac{a+b}{3}, -a+b, \frac{2a-b}{3}\right)</mrow>
+        </md>.
+      </p>
+
+
+      <p>
+        We conclude that
+        <me>
+          T(3,2) = \left(\frac53, -1, \frac43\right)
+        </me>.
+      </p>
+    </solution>
+  </exercise>
+
+
+
+  <exercise xml:id="ex_lintrans-indep">
+    <statement>
+      <p>
+        Let <m>T:V\to W</m> be a linear transformation.
+        Rearrange the blocks below to create a proof of the following statement:
+      </p>
+      <p>
+        For any vectors <m>\vv_1,\ldots, \vv_n\in V</m>,
+        if <m>\{T(\vv_1),\ldots, T(\vv_n)\}</m> is linearly independent in <m>W</m>,
+        then <m>\{\vv_1,\ldots, \vv_n\}</m> is linearly independent in <m>V</m>.
+      </p>
+    </statement>
+    <blocks>
+      <block order="6">
+        <p>
+          Suppose that <m>\{T(\vv_1),\ldots, T(\vv_n)\}</m> is linearly independent.
+        </p>
+      </block>
+      <block order="3">
+        <p>
+          We want to show that <m>\{\vv_1,\ldots, \vv_n\}</m>
+          is linearly independent, so suppose that we have
+          <me>
+            c_1\vv_1+\cdots + c_n\vv_n=\zer
+          </me>
+          for some scalars <m>c_1,\ldots, c_n</m>.
+        </p>
+      </block>
+      <block order="5">
+        <p>
+          We apply <m>T</m> to both sides of the equation above, giving us:
+          <me>
+            T(c_1\vv_1+\cdots + c_n\vv_n)=T(\zer)
+          </me>.
+        </p>
+      </block>
+      <block order="2">
+        <p>
+          Now we make use of both parts of <xref ref="thm-lt-props">Theorem</xref> to get
+          <me>
+            c_1T(\vv_1)+\cdots +c_nT(\vv_n) = \zer
+          </me>.
+        </p>
+      </block>
+      <block order="1">
+        <p>
+          By hypothesis, the vectors <m>T(\vv_i)</m> are linearly independent,
+          so we must have <m>c_1=0,c_2=0,\ldots, c_n=0</m>.
+        </p>
+      </block>
+      <block order="4">
+        <p>
+          Since the only solution to <m>c_1\vv_1+\cdots + c_n\vv_n=\zer</m>
+          is <m>c_1=0,\ldots, c_n=0</m>, the set <m>\{\vv_1,\ldots, \vv_n\}</m>
+          is linearly independent.
+        </p>
+      </block>
+    </blocks>
+    <hint>
+      <p>
+        This is mostly a matter of using <xref ref="thm-lt-props">Theorem</xref>,
+        but it's important to get the logic correct.
+        We have a conditional statement of the form <m>P\Rightarrow Q</m>,
+        where both <m>P</m> (<q>the set <m>\{T(\vv_1),\ldots, T(\vv_n)\}</m> is independent</q>)
+        and <m>Q</m> (<q>the set <m>\{\vv_1,\ldots, \vv_n\}</m> is independent</q>)
+        are themselves conditional statements.
+      </p>
+      <p>
+        The overall structure therefore looks like <m>(A\Rightarrow B)\Rightarrow (C\Rightarrow D)</m>.
+        A direct proof should be structured as follows:
+        <ol>
+          <li>
+            <p>
+              Assume the main hypothesis: <m>A\Rightarrow B</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Assume the <q>sub</q>-hypothesis <m>C</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Figure out how to show that <m>C\Rightarrow A</m>.
+              (This is the <q>apply <m>T</m> to both sides</q> step.)
+            </p>
+          </li>
+          <li>
+            <p>
+              If we know <m>A</m>, and we've assumed <m>A\Rightarrow B</m>, we know <m>B</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Realize that <m>B\Rightarrow D</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </hint>
+  </exercise>
+</section>

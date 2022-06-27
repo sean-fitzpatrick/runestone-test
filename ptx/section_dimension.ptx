@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="sec-dimension">
+  <title>Basis and dimension</title>
+
+  <p>
+    Next, we begin with an important result, sometimes known as the <q>Fundamental Theorem</q>:
+  </p>
+
+  <theorem xml:id="theorem-steinitz">
+    <title>Fundamental Theorem (Steinitz Exchange Lemma)</title>
+    <statement>
+      <p>
+        Suppose <m>V = \spn\{\vv_1,\ldots, \vv_n\}</m>.
+        If <m>\{\ww_1,\ldots, \ww_m\}</m> is a linearly independent set of vectors in <m>V</m>,
+        then <m>m\leq n</m>.
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        We won't give a complete proof of this theorem.
+        The idea is straightforward, but checking all the details takes some work.
+        Since <m>\{\vv_1,\ldots, \vv_k\}</m> is a spanning set,
+        each of the vectors in our independent set can be written as a linear combination of <m>\vv_1,\ldots, \vv_k</m>.
+        In particular, we can write
+        <me>
+          \ww_1 = a_1\vv_1+a_2\vv_2+\cdots + a_n\vv_n
+        </me>
+        for scalars <m>a_1,\ldots, a_n</m>, and these scalars can't all be zero.
+        (Why? And why is this important?)
+      </p>
+
+      <p>
+        The next step is to argue that <m>V=\{\ww_1,\vv_2,\ldots, \vv_n\}</m>;
+        that is, that we can replace <m>\vv_1</m> by <m>\ww_1</m> without changing the span.
+        This will involve chasing some linear combinations,
+        and remember that we need to check both inclusions to prove set equality.
+        (This step requires us to have assumed that the scalar <m>a_1</m> is nonzero. Do you see why?)
+      </p>
+
+      <p>
+        Next, we similarly replace <m>\vv_2</m> with <m>\ww_2</m>.
+        Note that we can write
+        <me>
+          \ww_2=a\ww_1+b_2\vv_2+\cdots + b_n\vv_n
+        </me>,
+        and at least one of the <m>b_i</m> must be nonzero.
+        (Why can't they all be zero? What does <xref ref="ex-independent-subset"/> tell you about <m>\{\ww_1,\ww_2\}</m>?)
+      </p>
+
+      <p>
+        If we assume that <m>b_2</m> is one of the nonzero scalars,
+        we can solve for <m>\vv_2</m> in the equation above, and replace <m>\vv_2</m> by <m>\ww_2</m> in our spanning set.
+        At this point, you will have successfully argued that <m>V=\spn\{\ww_1,\ww_2,\vv_3,\ldots, \vv_n\}</m>.
+      </p>
+
+      <p>
+        Now, we repeat the process. If <m>m\leq n</m>, we eventually run out of <m>\ww_i</m> vectors, and all is well.
+        The question is, what goes wrong if <m>m\gt n</m>? Then we run out of <m>\vv_j</m> vectors first.
+        We'll be able to write <m>V=\spn\{\ww_1,\ldots, \ww_n\}</m>,
+        and there will be some vectors <m>\ww_{n+1},\ldots, \ww_m</m> leftover.
+        Why is this a problem? (What assumption about the <m>\ww_i</m> will we contradict?)
+      </p>
+    </proof>
+  </theorem>
+
+  <p>
+    If a set of vectors spans a vector space <m>V</m>, but it is not independent,
+    we observed that it is possible to remove a vector from the set and still span <m>V</m> using a smaller set.
+    This suggests that spanning sets that are also linearly independent are of particular importance,
+    and indeed, they are important enough to have a name.
+  </p>
+
+  <definition xml:id="def-basis">
+    <statement>
+      <p>
+        Let <m>V</m> be a vector space. A set <m>\mathcal{B}=\{\mathbf{e}_1,\ldots, \mathbf{e}_n\}</m>
+        is called a <term>basis</term> of <m>V</m> if <m>\mathcal{B}</m> is linearly independent,
+        and <m>\spn\mathcal{B} = V</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    The importance of a basis is that vector vector <m>\vv\in V</m> can be written in terms of the basis,
+    and this expression as a linear combination of basis vectors is <em>unique</em>.
+    Another important fact is that every basis has the same number of elements.
+  </p>
+
+  <theorem xml:id="thm-invariance">
+    <title>Invariance Theorem</title>
+
+    <statement>
+      <p>
+        If <m>\{\mathbf{e}_1,\ldots, \mathbf{e}_n\}</m> and <m>\{\mathbf{f}_1,\ldots, \mathbf{f}_m\}</m>
+        are both bases of a vector space <m>V</m>, then <m>m=n</m>.
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        One way of proving the equality <m>m=n</m> is to show that <m>m\leq n</m> and <m>m\geq n</m>.
+        We know that since both sets are bases, both sets are independent, and they both span <m>V</m>.
+        Can you see a way to use <xref ref="theorem-steinitz"/> (twice)?
+      </p>
+    </proof>
+    <proof>
+      <p>
+        Let <m>A=\{\mathbf{e}_1,\ldots, \mathbf{e}_n\}</m> and let <m>B=\{\mathbf{f}_1,\ldots, \mathbf{f}_m\}</m>.
+        Since both <m>A</m> and <m>B</m> are bases, both sets are linearly independent, and both sets span <m>V</m>.
+        Since <m>A</m> is independent and <m>\spn B=V</m>, we must have <m>n\leq m</m>, by <xref ref="theorem-steinitz"/>.
+        Similarly, since <m>\spn A = V</m> and <m>B</m> is independent, we must have <m>n\geq m</m>,
+        and therefore, <m>n=m</m>.
+      </p>
+    </proof>
+  </theorem>
+
+  <p>
+    Suppose <m>V=\spn\{\vv_1,\ldots,\vv_n\}</m>.
+    If this set is not linearly independent, <xref ref="theorem-surplus-span">Theorem</xref>
+    tells us that we can remove a vector from the set, and still span <m>V</m>.
+    We can repeat this procedure until we have a linearly independent set of vectors, which will then be a basis.
+    These results let us make a definition.
+  </p>
+
+  <definition xml:id="def-dimension">
+    <statement>
+      <p>
+        Let <m>V</m> be a vector space.
+        If <m>V</m> can be spanned by a finite number of vectors,
+        then we call <m>V</m> a <term>finite-dimensional</term> vector space.
+        If <m>V</m> is finite-dimensional (and non-trivial), and <m>\{\mathbf{e}_1,\ldots, \mathbf{e}_n\}</m>
+        is a basis of <m>V</m>, we say that <m>V</m> has <term>dimension</term> <m>n</m>,
+        and write
+        <me>
+          \dim V = n
+        </me>.
+        If <m>V</m> cannot be spanned by finitely many vectors, we say that <m>V</m>
+        is <term>infinite-dimensional</term>.
+      </p>
+    </statement>
+  </definition>
+
+  <exercise>
+    <statement>
+      <p>
+        Find a basis for <m>U=\{X\in M_{22} \,|\, XA = AX\}</m>, if <m>A = \bbm 1\amp 1\\0\amp 0\ebm</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Let <m>X=\bbm a\amp b\\c\amp d\ebm</m>. Then <m>AX = \bbm a+c\amp b+d\\0\amp 0\ebm</m>,
+        and <m>XA = \bbm a\amp a\\c\amp c\ebm</m>, so the condition <m>AX=XA</m>
+        requires:
+        <md>
+          <mrow>a+c \amp = a</mrow>
+          <mrow>b+d \amp = a</mrow>
+          <mrow>0 \amp = c</mrow>
+          <mrow>0 \amp =c</mrow>
+        </md>.
+      </p>
+
+      <p>
+        So <m>c=0</m>, in which case the first equation <m>a=a</m> is trivial,
+        and we are left with the single equation <m>a=b+d</m>. Thus, our matrix <m>X</m>
+        must be of the form
+        <me>
+          X = \bbm b+d \amp b\\0\amp d\ebm = b\bbm 1\amp 1\\0\amp 0\ebm + d\bbm 1\amp 0\\0\amp 1\ebm
+        </me>.
+        Since the matrices <m>\bbm 1\amp 1\\0\amp 0\ebm</m> and <m>\bbm 1\amp 0\\0\amp 1\ebm</m>
+        are not scalar multiples of each other, they must be independent, and therefore, they form a basis for <m>U</m>.
+        (Why do we know these matrices span <m>U</m>?)
+      </p>
+    </solution>
+  </exercise>
+
+  <example xml:id="ex-standard-bases">
+    <title>Standard bases</title>
+    <statement>
+      <p>
+        Most of the vector spaces we work with come equipped with a <em>standard basis</em>.
+        The standard basis for a vector space is typically a basis such that the scalars needed to express a vector in terms of that basis are the same scalars used to define the vector in the first place.
+        For example, we write an element of <m>\R^3</m> as <m>(x,y,z)</m> (or <m>\langle x,y,z\rangle</m>,
+        or <m>\begin{bmatrix}x\amp y\amp z\end{bmatrix}</m>, or <m>\begin{bmatrix}x\\y\\z\end{bmatrix}</m><ellipsis/>).
+        We can also write
+        <me>
+          (x,y,z)=x(1,0,0)+y(0,1,0)+z(0,0,1)
+        </me>.
+        The set <m>\{(1,0,0),(0,1,0),(0,0,1)\}</m> is the standard basis for <m>\R^3</m>.
+        In general, the vector space <m>\R^n</m> (written this time as column vectors) has standard basis
+        <me>
+          \vece_1=\bbm 1\\0\\ \vdots \\0\ebm, \vece_2 = \bbm 0\\1\\ \vdots \\0\ebm, \ldots, \vece_n=\bbm 0\\0\\ \vdots \\1\ebm
+        </me>.
+        From this, we can conclude (unsurprisingly) that <m>\dim \R^n = n</m>.
+      </p>
+
+      <p>
+        Similarly, a polynomial <m>p(x)\in P_n(\R)</m> is usually written as
+        <me>
+          p(x) = a_0+a_1x+a_2x^2+\cdots + a_nx^n
+        </me>,
+        suggesting the standard basis <m>\{1,x,x^2,\ldots, x^n\}</m>.
+        As a result, we see that <m>\dim P_n(\R)=n+1</m>.
+      </p>
+
+      <p>
+        For one more example, we note that a <m>2\times 2</m> matrix <m>A\in M_{22}(\R)</m>
+        can be written as
+        <me>
+          \bbm a\amp b\\c\amp d\ebm = a\bbm 1\amp 0\\0\amp 0\ebm+b\bbm 0\amp 1\\0\amp 0\ebm +c\bbm 0\amp 0\\1\amp 0\ebm + d\bbm 0\amp 0\\0\amp 1\ebm
+        </me>,
+        which suggests a standard basis for <m>M_{22}(\R)</m>, with similar results for any other matrix space.
+        From this, we can conclude (exercise) that <m>\dim M_{mn}(\R)=mn</m>.
+      </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="ex-basis-r3">
+    <introduction>
+      <p>
+        Show that the following sets are bases of <m>\R^3</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\{(1,1,0),(1,0,1),(0,1,1)\}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need to show that the set is independent, and that it spans.
+        </p>
+        <p>
+          The set is independent if the equation
+          <me>
+            x(1,1,0)+y(1,0,1)+z(0,1,1)=(0,0,0)
+          </me>
+          has <m>x=y=z=0</m> as its only solution.
+          This equation is equivalent to the system
+          <md>
+            <mrow>x+y \amp =0</mrow>
+            <mrow>x+z \amp =0</mrow>
+            <mrow>y+z \amp =0</mrow>
+          </md>.
+        </p>
+        <p>
+          We know that the solution to this system is unique if the coefficient matrix
+          <m>A = \bbm 1\amp 1\amp 0\\1\amp 0\amp 1\\0\amp 1\amp 1\ebm</m> is invertible.
+          Note that the columns of this matrix are vectors in our set.
+        </p>
+        <p>
+          We can determine invertibility either by showing that the <init>RREF</init> of <m>A</m>
+          is the identity, or by showing that the determinant of <m>A</m> is nonzero.
+          Either way, this is most easily done by the computer:
+        </p>
+
+        <sage>
+          <input>
+            from sympy import Matrix,init_printing
+            init_printing()
+            A = Matrix([[1,1,0],[1,0,1],[0,1,1]])
+            A.rref(), A.det()
+          </input>
+          <output>
+            \[\left(\bbm 1\amp 0\amp 0\\0\amp 1\amp 0\\0\amp 0\amp 1\ebm, (0,1,2)\right), -2\]
+          </output>
+        </sage>
+
+        <p>
+          Our set of vectors is therefore linearly independent.
+          Now, to show that it spans, we need to show that for any vector <m>(a,b,c)</m>,
+          the equation
+          <me>
+            x(1,1,0)+y(1,0,1)+z(0,1,1)=(a,b,c)
+          </me>
+          has a solution. But we know that this system has the same coefficient matrix as the one above,
+          and that existence of a solution again follows from invertibility of <m>A</m>,
+          which we have already established.
+        </p>
+        <p>
+          Note that for three vectors in <m>\R^3</m>, once independence has been confirmed,
+          span is automatic. We will soon see that this is not a coincidence.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\{(-1,1,1),(1,-1,1),(1,1,-1)\}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Based on what we learned from the first set,
+          determining whether or not this set is a basis is equivalent to determining whether or not the matrix
+          <m>A</m> whose columns consist of the vectors in the set is invertible.
+          We form the matrix
+          <me>
+            A = \bbm -1\amp 1\amp 1\\1\amp -1\amp 1\\1\amp 1\amp -1\ebm
+          </me>
+          and then check invertibility using the computer.
+        </p>
+
+        <sage>
+          <input>
+            A = Matrix([[-1,1,1],[1,-1,1],[1,1,-1]])
+            A.det()
+          </input>
+          <output>
+            \[4\]
+          </output>
+        </sage>
+
+        <p>
+          Since the determinant is nonzero, our set is a basis.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <p>
+    The next two exercises are left to the reader to solve.
+    In each case, your goal should be to turn the questions of independence and span into a system of equations,
+    which you can then solve using the computer.
+  </p>
+
+  <exercise>
+    <statement>
+      <p>
+        Show that the following is a basis of <m>M_{22}</m>:
+        <me>
+          \left\{\bbm 1\amp 0\\0\amp 1\ebm, \bbm 0\amp 1\\1\amp 0\ebm, \bbm 1\amp 1\\0\amp 1\ebm, \bbm 1\amp 0\\0\amp 0\ebm\right\}
+        </me>.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        For independence, consider the linear combination
+        <me>
+          w\bbm 1\amp 0\\0\amp 1\ebm + x\bbm 0\amp 1\\1\amp 0\ebm +y\bbm 1\amp 1\\0\amp 1\ebm +z\bbm 1\amp 0\\0\amp 0\ebm=\bbm 1\amp 0\\0\amp 1\ebm
+        </me>.
+        Combine the left-hand side, and then equate entries of the matrices on either side to obtain a system of equations.
+      </p>
+    </hint>
+  </exercise>
+
+  <sage>
+
+  </sage>
+
+  <exercise>
+    <statement>
+      <p>
+        Show that <m>\{1+x,x+x^2,x^2+x^3,x^3\}</m> is a basis for <m>P_3</m>.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        For independence, consider the linear combination
+        <me>
+          a(1+x)+b(x+x^2)+c(x^2+x^3)+dx^3=0
+        </me>.
+        When dealing with polynomials, we need to collect like terms and equate coefficients:
+        <me>
+          a\cdot 1 +(a+b)x+(b+c)x^2+(c+d)x^3=0
+        </me>,
+        so the coefficients <m>a, a+b, b+c, c+d</m> must all equal zero.
+      </p>
+    </hint>
+  </exercise>
+
+  <sage>
+
+  </sage>
+
+  <exercise>
+    <introduction>
+      <p>
+        Find a basis and dimension for the following subspaces of <m>P_2</m>:
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>U_1 = \{a(1+x)+b(x+x^2)\,|\, a,b\in\R\}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          By definition, <m>U_1 = \spn \{1+x,x+x^2\}</m>,
+          and these vectors are independent, since neither is a scalar multiple of the other.
+          Since there are two vectors in this basis, <m>\dim U_1 = 2</m>.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>U_2=\{p(x)\in P_2 \,|\, p(1)=0\}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          If <m>p(1)=0</m>, then <m>p(x)=(x-1)q(x)</m> for some polynomial <m>q</m>.
+          Since <m>U_2</m> is a subspace of <m>P_2</m>, the degree of <m>q</m> is at most 2.
+          Therefore, <m>q(x)=ax+b</m> for some <m>a,b\in\R</m>, and
+          <me>
+            p(x) = (x-1)(ax+b) = a(x^2-x)+b(x-1)
+          </me>.
+          Since <m>p</m> was arbitrary, this shows that <m>U_2 = \spn\{x^2-x,x-1\}</m>.
+        </p>
+
+        <p>
+          The set <m>\{x^2-x,x-1\}</m> is also independent,
+          since neither vector is a scalar multiple of the other.
+          Therefore, this set is a basis, and <m>\dim U_2=2</m>.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>U_3 = \{p(x)\in P_2 \,|\, p(x)=p(-x)\}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          If <m>p(x)=p(-x)</m>, then <m>p(x)</m> is an even polynomial,
+          and therefore <m>p(x)=a+bx^2</m> for <m>a,b\in\R</m>.
+          (If you didn't know this it's easily verified: if
+          <me>
+            a+bx+cx^2 = a+b(-x)+c(-x)^2
+          </me>,
+          we can immediately cancel <m>a</m> from each side,
+          and since <m>(-x)^2=x^2</m>, we can cancel <m>cx^2</m> as well.
+          This leaves <m>bx=-bx</m>, or <m>2bx=0</m>, which implies that <m>b=0</m>.)
+        </p>
+
+        <p>
+          It follows that the set <m>\{1,x^2\}</m> spans <m>U_3</m>,
+          and since this is a subset of the standard basis <m>\{1,x,x^2\}</m> of <m>P_2</m>,
+          it must be independent, and is therefore a basis of <m>U_3</m>,
+          letting us conclude that <m>\dim U_3=2</m>.
+        </p>
+      </solution>
+    </task>
+  </exercise>
+
+  <p>
+    We've noted a few times now that if <m>\ww\in\spn\{\vv_1,\ldots, \vv_n\}</m>,
+    then
+    <me>
+      \spn\{\ww,\vv_1,\ldots, \vv_n\}=\spn\{\vv_1,\ldots, \vv_n\}
+    </me>
+    If <m>\ww</m> is not in the span, we can make another useful observation:
+  </p>
+
+  <lemma xml:id="lemma-independent">
+    <title>Independent Lemma</title>
+    <statement>
+      <p>
+        Suppose <m>\{\vv_1,\ldots, \vv_n\}</m> is a linearly independent set of vectors in a vector space <m>V</m>.
+        If <m>\uu\in V</m> but <m>\uu\notin \spn\{\vv_1,\ldots, \vv_n\}</m>,
+        then <m>\{\uu,\vv_1,\ldots, \vv_n\}</m> is independent.
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        We want to show that a set of vectors is linearly independent,
+        so we should begin by setting a linear combination of these vectors equal to the zero vector.
+        Our goal is to show that all the coefficients have to be zero.
+      </p>
+
+      <p>
+        Since the vector <m>\uu</m> is <q>special</q>,
+        its coefficient gets a different treatment, using a familiar tautology:
+        either this coefficient is zero, or it isn't.
+      </p>
+      <p>
+        what if the coefficient of <m>\uu</m> is nonzero? Does that contradict one of our assumptions?
+        If the coefficient of <m>\uu</m> is zero, then it disappears from our linear combination.
+        What assumption applies to the remaining vectors?
+      </p>
+    </proof>
+
+    <proof>
+      <p>
+        Suppose <m>S=\{\vv_1,\ldots, \vv_n\}</m> is independent,
+        and that <m>\uu\notin\spn S</m>. Suppose we have
+        <me>
+          a\uu+c_1\vv_1+c_2\vv_2+\cdots +c_n\mathbf{b}_n=\zer
+        </me>
+        for scalars <m>a,c_1,\ldots, c_n</m>. We must have <m>a=0</m>;
+        otherwise, we can multiply by <m>\frac1a</m> and rearrange to obtain
+        <me>
+          \uu = -\frac{c_1}{a}\vv_1-\cdots -\frac{c_n}{a}\vv_n
+        </me>,
+        but this would mean that <m>\uu\in \spn S</m>, contradicting our assumption.
+      </p>
+
+      <p>
+        With <m>a=0</m> we're left with
+        <me>
+          c_1\vv_1+c_2\vv_2+\cdots +c_n\mathbf{b}_n=\zer
+        </me>,
+        and since we assumed that the set <m>S</m> is independent,
+        we must have <m>c_1=c_2=\cdots=c_n=0</m>. Since we already showed <m>a=0</m>,
+        this shows that <m>\{\uu,\vv_1,\ldots, \vv_n\}</m> is independent.
+      </p>
+    </proof>
+
+  </lemma>
+  <p>
+    This is, in fact, an <q>if and only if</q> result.
+    If <m>\uu\in\spn\{\vv_1,\ldots, \vv_n\}</m>, then <m>\{\uu,\vv_1,\ldots, \vv_n\}</m> is not independent.
+    Above, we argued that if <m>V</m> is finite dimensional,
+    then any spanning set for <m>V</m> can be reduced to a basis.
+    It probably won't surprise you that the following is also true.
+  </p>
+
+  <lemma xml:id="lem-enlarge-independent">
+    <statement>
+      <p>
+        Let <m>V</m> be a finite-dimensional vector space,
+        and let <m>U</m> be any subspace of <m>V</m>.
+        Then any independent set of vectors <m>\{\uu_1,\ldots, \uu_k\}</m> in <m>U</m>
+        can be enlarged to a basis of <m>U</m>.
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        We have an independent set of vectors that doesn't span our subspace.
+        That means there must be some vector in <m>U</m> that isn't in the span,
+        so <xref ref="lemma-independent"/> applies:
+        we can add that vector to our set, and get a larger independent set.
+      </p>
+
+      <p>
+        Now it's just a matter of repeating this process until we get a spanning set.
+        But there's one gap: how do we know the process has to stop?
+        Why can't we just keep adding vectors forever, getting larger and larger independent sets?
+      </p>
+    </proof>
+
+    <proof>
+      <p>
+        This follows from <xref ref="lemma-independent"/>.
+        If our independent set of vectors spans <m>U</m>, then it's a basis and we're done.
+        If not, we can find some vector not in the span,
+        and add it to our set to obtain a larger set that is still independent.
+        We can continue adding vectors in this fashion until we obtain a spanning set.
+      </p>
+
+      <p>
+        Note that this process <em>must</em> terminate: <m>V</m> is finite-dimensional,
+        so there is a finite spanning set for <m>V</m>.
+        By the Steinitz Exchange lemma, our independent set cannot get larger than this spanning set.
+      </p>
+    </proof>
+
+  </lemma>
+
+  <theorem xml:id="thm-basis-exist">
+    <statement>
+      <p>
+        Any finite-dimensional (non-trivial) vector space <m>V</m> has a basis.
+        Moreover:
+        <ol>
+          <li>
+            <p>
+              If <m>V</m> can be spanned by <m>m</m> vectors,
+              then <m>\dim V\leq m</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Given an independent set <m>I</m> in <m>V</m> that does not span <m>V</m>,
+              and a basis <m>\mathcal{B}</m> of <m>V</m>,
+              we can enlarge <m>I</m> to a basis of <m>V</m> by adding elements of <m>\mathcal{B}</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        Much of this theorem sums up some of what we've learned so far:
+        As long as a vector space <m>V</m> contains a nonzero vector <m>\vv</m>,
+        the set <m>\{\vv\}</m> is independent and can be enlarged to a basis, by <xref ref="lem-enlarge-independent"/>.
+        The size of any spanning set is at least as big as the dimension of <m>V</m>, by <xref ref="theorem-steinitz"/>.
+      </p>
+
+      <p>
+        To understand why we can enlarge a given independent set using elements of an <em>existing</em> basis,
+        we need to think about why there must be some vector in this basis that is not in the span of our independent set,
+        so that we can apply <xref ref="lem-enlarge-independent"/>.
+      </p>
+    </proof>
+    <proof>
+      <p>
+        Let <m>V</m> be a finite-dimensional, non-trivial vector space.
+        If <m>\vv\neq \zer</m> is a vector in <m>V</m>, then <m>\{\vv\}</m> is linearly independent.
+        By <xref ref="lem-enlarge-independent"/>, we can enlarge this set to a basis of <m>V</m>,
+        so <m>V</m> has a basis.
+      </p>
+      <p>
+        Now, suppose <m>V = \spn\{\ww_1,\ldots, \ww_m\}</m>,
+        and let <m>B=\{\vv_1,\ldots, \vv_n\}</m> be a basis for <m>V</m>.
+        By definition, we have <m>\dim V=n</m>,
+        and by <xref ref="theorem-steinitz"/>, since <m>B</m> is linearly independent,
+        we must have <m>n\leq m</m>.
+      </p>
+      <p>
+        Let us now consider an independent set <m>I=\{\uu_1,\ldots, \uu_k\}</m>.
+        Since <m>I</m> is independent and <m>B</m> spans <m>V</m>, we must have <m>k\leq n</m>.
+        If <m>\spn I\neq V</m>, there must be some element of <m>B</m> that is not in the span of <m>I</m>:
+        if every element of <m>B</m> is in <m>\spn I</m>, then <m>\spn I = \spn (B\cup I)</m>
+        by <xref ref="theorem-surplus-span"/>.
+        And since <m>B</m> is a basis, it spans <m>V</m>, so every element of <m>I</m> is in the span of <m>B</m>,
+        and we similarly have that <m>\spn (B\cup I)=\spn B</m>, so <m>\spn B=\spn I</m>.
+      </p>
+      <p>
+        Since we can find an element of <m>B</m> that is not in the span of <m>I</m>,
+        we can add that element to <m>I</m>, and the resulting set is still independent.
+        If the new set spans <m>V</m>, we're done. If not, we can repeat the process, adding another vector from <m>B</m>.
+        Since the set <m>B</m> is finite, this process must eventually end.
+      </p>
+    </proof>
+  </theorem>
+
+
+
+  <exercise>
+    <statement>
+      <p>
+        Find a basis of <m>M_{22}(\R)</m> that contains the vectors
+        <me>
+          \vv=\bbm 1\amp 1\\0\amp 0\ebm, \ww=\bbm 0\amp 1\\0\amp 1\ebm
+        </me>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        By the previous theorem, we can form a basis by adding vectors from the standard basis
+        <me>
+          \left\{\bbm 1\amp 0\\0\amp 0\ebm, \bbm 0\amp 1\\0\amp 0\ebm, \bbm 0\amp 0\\1\amp 0\ebm, \bbm 0\amp 0\\0\amp 1\ebm\right\}
+        </me>.
+        It's easy to check that <m>\bbm 1\amp 0\\0\amp 0\ebm</m> is not in the span of <m>\{\vv,\ww\}</m>.
+        To get a basis, we need one more vector.
+        Observe that all three of our vectors so far have a zero in the <m>(2,1)</m>-entry.
+        Thus, <m>\bbm 0\amp 0\\1\amp 0\ebm</m> cannot be in the span of the first three vectors,
+        and adding it gives us our basis.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Extend the set <m>\{1+x,x+x^2,x-x^3\}</m> to a basis of <m>P_3(\R)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Again, we only need to add one vector from the standard basis
+        <m>\{1,x,x^2,x^3\}</m>, and it's not too hard to check that any of them will do.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Give two examples of infinite-dimensional vector spaces.
+        Support your answer.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Determine whether the following statements are true or false.
+      </p>
+    </introduction>
+    <task>
+      <statement correct="no">
+        <p>
+          A set of 2 vectors can span <m>\R^3</m>.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          We know that the standard basis for <m>\R^3</m> contains three vectors,
+          and as a basis, it is linearly independent.
+          According to <xref ref="theorem-steinitz"/>, a spanning set cannot be larger than an independent set.
+        </p>
+      </feedback>
+    </task>
+    <task>
+      <statement correct="yes">
+        <p>
+          It is possible for a set of 2 vectors to be linearly independent in <m>\R^3</m>.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          There are many such examples, including <m>\{(1,0,0),(0,1,0)\}</m>.
+        </p>
+      </feedback>
+    </task>
+    <task>
+      <statement correct="yes">
+        <p>
+          A set of 4 vectors can span <m>\R^3</m>.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Add any vector you want to a basis for <m>\R^3</m>, and the resulting set will span.
+        </p>
+      </feedback>
+    </task>
+    <task>
+      <statement correct="no">
+        <p>
+          It is possible for a set of 4 vectors to be linearly independent in <m>\R^3</m>.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          We know that 3 vectors can span <m>\R^3</m>, and an independent set cannot be larger than a spanning set.
+        </p>
+      </feedback>
+    </task>
+  </exercise>
+
+  <p>
+    Let's recap our results so far:
+    <ul>
+      <li>
+        <p>
+          A basis for a vector space <m>V</m> is an independent set of vectors that spans <m>V</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          The number of vectors in any basis of <m>V</m> is a constant, called the dimension of <m>V</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          The number of vectors in any independent set is always less than or equal to the number of vectors in a spanning set.
+        </p>
+      </li>
+      <li>
+        <p>
+          In a finite-dimensional vector space, any independent set can be enlarged to a basis,
+          and any spanning set can be cut down to a basis by deleting vectors that are in the span of the remaining vectors.
+        </p>
+      </li>
+    </ul>
+    Another important aspect of dimension is that it reduces many problems,
+    such as determining equality of subspaces, to counting problems.
+  </p>
+
+  <theorem xml:id="thm-subspace-dim">
+    <statement>
+      <p>
+        Let <m>U</m> and <m>W</m> be subspaces of a finite-dimensional vector space <m>V</m>.
+        <ol>
+          <li>
+            <p>
+              If <m>U\subseteq W</m>, then <m>\dim U\leq \dim W</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>U\subseteq W</m> and <m>\dim U=\dim W</m>, then <m>U=W</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <proof>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Suppose <m>U\subseteq W</m>, and let <m>B=\{\uu_1,\ldots, \uu_k\}</m>
+              be a basis for <m>U</m>. Since <m>B</m> is a basis, it's independent.
+              And since <m>B\subseteq U</m> and <m>U\subseteq W</m>, <m>B\subseteq W</m>.
+              Thus, <m>B</m> is an independent subset of <m>W</m>,
+              and since any basis of <m>W</m> spans <m>W</m>,
+              we know that <m>\dim U = k \leq \dim W</m>,
+              by <xref ref="theorem-steinitz">Theorem</xref>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose <m>U\subseteq W</m> and <m>\dim U = \dim W</m>.
+              Let <m>B</m> be a basis for <m>U</m>.
+              As above, <m>B</m> is an independent subset of <m>W</m>.
+              If <m>W\neq U</m>, then there is some <m>\ww\in W</m> with <m>\ww\notin U</m>.
+              But <m>U=\spn B</m>, so that would mean that <m>B\cup \{\ww\}</m>
+              is a linearly independent set containing <m>\dim U+1</m> vectors.
+              This is impossible, since <m>\dim W=\dim U</m>,
+              so no independent set can contain more than <m>\dim U</m> vectors.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </proof>
+
+  </theorem>
+
+  <p>
+    An even more useful counting result is the following:
+  </p>
+
+  <theorem xml:id="thm-half-the-work">
+    <statement>
+      <p>
+        Let <m>V</m> be an <m>n</m>-dimensional vector space.
+        If the set <m>S</m> contains <m>n</m> vectors,
+        then <m>S</m> is independent if and only if <m>\spn S=V</m>.
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        This result is a combination of three observations:
+        <ol>
+          <li>
+            <p>
+              The dimension of <m>V</m> is the size of any basis
+            </p>
+          </li>
+          <li>
+            <p>
+              Any independent set can be enlarged to a basis,
+              and cannot have more vectors than a basis.
+            </p>
+          </li>
+          <li>
+            <p>
+              Any spanning set contains a basis,
+              and cannot have fewer vectors than a basis.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </proof>
+    <proof>
+      <p>
+        If <m>S</m> is independent, then it can be extended to a basis <m>B</m> with <m>S\subseteq B</m>.
+        But <m>S</m> and <m>B</m> both contain <m>n</m> vectors (since <m>\dim V=n</m>),
+        so we must have <m>S=B</m>.
+      </p>
+
+      <p>
+        If <m>S</m> spans <m>V</m>, then <m>S</m> must contain a basis <m>B</m>,
+        and as above, since <m>S</m> and <m>B</m> contain the same number of vectors,
+        they must be equal.
+      </p>
+    </proof>
+  </theorem>
+
+  <p>
+    <xref ref="thm-half-the-work"/> saves us a lot of time,
+    since it tells us that, when we know the dimension of <m>V</m>,
+    we do not have to check both independence and span to confirm a basis;
+    checking one of the two implies the other. (And usually independence is easier to check.)
+  </p>
+
+  <p>
+    We saw this in <xref ref="ex-basis-r3"/>:
+    given a set of vectors in <m>\R^3</m>,
+    we form the matrix <m>A</m> with these vectors as columns.
+    This matrix becomes the coefficient matrix for the system of equations we obtain when checking for independence,
+    <em>and</em> for the system we obtain when checking for span.
+    In both cases, the condition on <m>A</m> is the same; namely, that it must be invertible.
+  </p>
+</section>

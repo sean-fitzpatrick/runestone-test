@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+    <rename element="inlineexercise">Exercise</rename>
+    <rename element="task">Part</rename>
+    <macros>
+      \newcommand{\spn}{\operatorname{span}}
+      \newcommand{\bbm}{\begin{bmatrix}}
+      \newcommand{\ebm}{\end{bmatrix}}
+      \newcommand{\R}{\mathbb{R}}
+      \ifdefined\C
+      \renewcommand\C{\mathbb{C}}
+      \else
+      \newcommand\C{\mathbb{C}}
+      \fi
+      \newcommand{\im}{\operatorname{im}}
+      \newcommand{\nll}{\operatorname{null}}
+      \newcommand{\csp}{\operatorname{col}}
+      \newcommand{\rank}{\operatorname{rank}}
+      \newcommand{\diag}{\operatorname{diag}}
+      \newcommand{\tr}{\operatorname{tr}}
+      \newcommand{\dotp}{\!\boldsymbol{\cdot}\!}
+      \newcommand{\len}[1]{\lVert #1\rVert}
+      \newcommand{\abs}[1]{\lvert #1\rvert}
+      \newcommand{\proj}[2]{\operatorname{proj}_{#1}{#2}}
+      \newcommand{\bz}{\overline{z}}
+      \newcommand{\zz}{\mathbf{z}}
+      \newcommand{\uu}{\mathbf{u}}
+      \newcommand{\vv}{\mathbf{v}}
+      \newcommand{\ww}{\mathbf{w}}
+      \newcommand{\xx}{\mathbf{x}}
+      \newcommand{\yy}{\mathbf{y}}
+      \newcommand{\zer}{\mathbf{0}}
+      \newcommand{\vecq}{\mathbf{q}}
+      \newcommand{\vecp}{\mathbf{p}}
+      \newcommand{\vece}{\mathbf{e}}
+      \newcommand{\basis}[2]{\{\mathbf{#1}_1,\mathbf{#1}_2,\ldots,\mathbf{#1}_{#2}\}}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{pgfplots}
+      \usetikzlibrary{positioning,matrix,arrows,arrows.meta}
+    </latex-image-preamble>
+  </docinfo>
+  <book xml:id="linear-algebra">
+    <title>Linear Algebra</title>
+    <subtitle>A second course, featuring proofs and Python</subtitle>
+    <frontmatter>
+
+      <titlepage>
+          <author>
+              <personname>Sean Fitzpatrick</personname>
+              <institution>University of Lethbridge</institution>
+          </author>
+          <date><today /></date>
+      </titlepage>
+
+      <colophon>
+        <edition>Version 2.0.0 (now with Runestone)</edition>
+        <copyright>
+          <year>2022</year>
+          <holder>Sean Fitzpatrick</holder>
+          <minilicense>Creative Commons BY NC</minilicense>
+          <shortlicense>
+            Licensed to the public under Creative Commons Attribution-Noncommercial 4.0 International Public License
+          </shortlicense>
+
+        </copyright>
+      </colophon>
+
+
+      <preface>
+        <p>
+          This textbook is intended for a second course in linear algebra,
+          for students who have completed a first course focused on procedures rather than proofs.
+          (That is, a course covering systems of equations, matrix algebra, determinants, <etc /> but not vector spaces.)
+        </p>
+        <p>
+          Linear algebra is a mature, rich subject, full of both fascinating theory and useful applications.
+          One of the things you might have taken away from a first course in the subject is that there's a lot of tedious calculation involved.
+          This is true, if you're a human. But the algorithms you learned are easily implemented on a computer.
+          If we want to be able to discuss any of the interesting applications of linear algebra,
+          we're going to need to learn how to do linear algebra on a computer.
+        </p>
+        <p>
+          There are many good mathematical software products that can deal with linear algebra,
+          like Maple, Mathematica, and MatLab. But all of these are proprietary, and expensive.
+          Sage is a popular open source system for mathematics,
+          and students considering further studies in mathematics would do well to learn Sage.
+          Since we want to prepare students for careers other than <q>mathematician</q>,
+          we'll try to do everything in Python.
+        </p>
+        <p>
+          Python is a very popular programming language, partly because of its ease of use.
+          Those of you enrolled in Education may find yourself teaching Python to your students one day.
+          Also, if you do want to use Sage, you're in luck: Sage is an amalgamation of many different software tools,
+          including Python. So any Python code you encounter in this course can also be run on Sage.
+          <em>You do not have to be a programmer</em> to run the code in this book.
+          We'll be primarily working with the <term>SymPy</term> Python library,
+          which provides many easy to use functions for operations like determinant and inverse.
+        </p>
+        <p>
+          These notes originally began as an attempt to make Python-based worksheets
+          that could be exported from PreTeXt to Jupyter, for use in the classroom.
+          It quickly became apparent that something more was needed,
+          and the worksheets morphed into lecture notes.
+          These are intended to serve as a textbook for Math 3410,
+          but with some work they can also be used in class.
+          The notes are written in <pretext/>, and can be converted to both Jupyter notebooks
+          and reveal.js slides.
+        </p>
+        <p>
+          It should be noted that Jupyter conversion is not perfect.
+          In particular, wherever there are code cells present within an example or exercise,
+          the resulting notebook will not be valid.
+          However, all of the <em>worksheets</em> in the book will successfully convert to Jupyter notebooks,
+          and are intended to be used as such.
+        </p>
+        <p>
+          I initially wrote these notes during the Fall 2019 semester,
+          for Math 3410 at the University of Lethbridge.
+          The original textbook for the course was <em>Linear Algebra with Applications</em>,
+          by Keith Nicholson. This book is available as an open education resource from
+          <url href="https://lyryx.com/linear-algebra-applications/" visual="lyryx.com/linear-algebra-applications/">Lyryx Learning</url>.
+        </p>
+        <p>
+          Since the notes were written for a course that used Nicholson's textbook,
+          the influence of his book is evident throughout.
+          In particular, much of the notation agrees with that of Nicholson,
+          and there are places where I refer to his book for further details.
+          I taught a previous offering of this course using Sheldon Axler's beautiful <em>Linear Algebra Done Right</em>,
+          which certainly had an effect on how I view the subject,
+          and it is quite likely that this has impacted how I present some of the material in this book.
+        </p>
+        <p>
+          This new edition of the book features exercises written using some of the interactive features
+          provided by the partnership between <pretext /> and <url href="https://runestone.academy/" visual="runestone.academy">Runestone</url>.
+          I have also tried to provide additional guidance on understanding (and constructing)
+          the proofs that appear in an upper division course on linear algebra.
+        </p>
+      </preface>
+
+
+    </frontmatter>
+
+    <xi:include href="./chapter_vector_space.ptx"/>
+
+    <xi:include href="./chapter_linear_transformations.ptx"/>
+
+    <xi:include href="./chapter_orthogonality.ptx"/>
+
+    <xi:include href="./chapter_diagonalization.ptx"/>
+
+    <xi:include href="./chapter_change_basis.ptx"/>
+
+    <backmatter>
+      <xi:include href="./appendix_computation.ptx"/>
+      <solutions inline="answer solution hint">
+        <title>Solutions to Selected Exercises</title>
+      </solutions>
+    </backmatter>
+  </book>
+</pretext>

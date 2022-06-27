@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="sec-independence">
+  <title>Linear Independence</title>
+
+  <p>
+    Recall that in <xref ref="ex-subspace-lines-and-planes"/>,
+    we had to take care to insist that the vectors spanning our plane were not parallel.
+    Otherwise, what we thought was a plane would, in fact, be only a line.
+    Similarly, we said that a line is given by the set of all vectors of the form <m>t\vv</m>,
+    where <m>t</m> is a scalar, and <m>\vv</m> <em>is not the zero vector</em>.
+    Otherwise, if <m>\vv=\zer</m>, we would have <m>t\vv=\zer</m> for all <m>t\in\R</m>,
+    and our <q>line</q> would be the trivial subspace.
+  </p>
+
+  <p>
+    When we define a subspace as the span of a set of vectors,
+    we want to have an idea of the size (or perhaps complexity) of the subspace.
+    Certainly the number of vectors we use to generate the span gives a measure of this,
+    but it is not the whole story: we also need to know how many of these vectors <q>depend</q> on other vectors in the generating set.
+    As <xref ref="theorem-surplus-span"/> tells us,
+    when one of the vectors in our generating set can be written as a linear combination of the others,
+    we can remove it as a generator without changing the span.
+  </p>
+
+  <p>
+    Given a set of vectors <m>S=\{\vv_1,\vv_2,\ldots, \vv_k\}</m>,
+    an important question is therefore: can any of these vectors be written as a linear combination of other vectors in the set?
+    If the answer is no, we say that <m>S</m> is <term>linearly independent</term>.
+    This is a difficult condition to check, however:
+    first, we would have to show that <m>\vv_1</m> cannot be written as a linear combination of <m>\vv_2,\ldots, \vv_k</m>.
+    Then, that <m>\vv_2</m> cannot be written in terms of <m>\vv_1,\vv_3,\ldots, \vv_k</m>, and so on.
+  </p>
+
+  <p>
+    This could amount to solving <m>k</m> different systems of equations in <m>k-1</m> variables!
+    But the systems are not all unrelated. The equation <m>\vv_1=c_2\vv_2+\cdots+c_k\vv_k</m>
+    can be rewritten as <m>c_1\vv_1-c_2\vv_2-\cdots -c_k\vv_k=\zer</m>,
+    where we happen to have set <m>c_1=1</m>.
+  </p>
+
+  <p>
+    In fact, we can do the same thing for each of these systems,
+    and in each case we end up with the same thing: a single <em>homogeneous</em> system with one extra variable.
+    (We get back each of the systems we started with by setting one of the variables equal to <m>1</m>.)
+    This not only is far more efficient, it changes the question:
+    it is no longer a question of <em>existence</em> of solutions to a collection of non-homogeneous systems,
+    but a question of <em>uniqueness</em> for the solution of a single homogeneous system.
+  </p>
+
+  <definition xml:id="def-independent">
+    <statement>
+      <p>
+        Let <m>\{\vv_1,\ldots,\vv_k\}</m> be a set of vectors in a vector space <m>V</m>.
+        We say that this set is <term>linearly independent</term> if,
+        for scalars <m>c_1,\ldots, c_k</m>, the equation
+        <me>
+          c_1\vv_1+\cdots + c_k\vv_k = \zer
+        </me>
+        implies that <m>c_1=0, c_2=0,\ldots, c_k=0</m>.
+      </p>
+      <p>
+        A set of vectors that is not linearly indepdendent is called <term>linearly dependent</term>.
+      </p>
+    </statement>
+  </definition>
+
+  <exercise>
+    <statement correct="no">
+      <p>
+        If <m>c_1\vv_1+\cdots +c_k\vv_k=\zer</m>,
+        where <m>c_1=0,\ldots, c_k=0</m>, then
+        <m>\{\vv_1,\ldots, \vv_k\}</m> is linearly independent.
+      </p>
+    </statement>
+    <feedback>
+      <p>
+        The definition of independence is a conditional statement:
+        <em>if</em> <m>c_1\vv_1+\cdots + c_k\vv_k = \zer</m>,
+        <em>then</em> <m>c_1=0,\ldots, c_k=0</m>.
+        It is important to get the order of the logic correct here,
+        as the converse is always true.
+      </p>
+    </feedback>
+  </exercise>
+
+  <aside>
+    <p>
+      Recall that the <em>trivial solution</em>, where all variables are zero,
+      is <em>always</em> a solution to a homogeneous system of linear equations.
+      When checking for independence (or writing proofs of related theorems),
+      it is vitally important that we do not assume in advance that our scalars are zero.
+      Otherwise, we are simply making the assertion that <m>0\vv_1+\cdots+0\vv_k=\zer</m>,
+      which is, indeed, trivial.
+    </p>
+
+    <p>
+      When we prove linear independence, we are trying to show that the trivial solution
+      is the <em>only</em> solution.
+    </p>
+  </aside>
+
+  <p>
+    Note that the definition of independence asserts that there can be no
+    <q>non-trivial</q> linear combinations that add up to the zero vector.
+    Indeed, if even one scalar can be nonzero, then we can solve for the corresponding vector.
+    Say, for example, that we have a solution to <m>c_1\vv_1+c_2\vv_2\cdots + c_k\vv_k = \zer</m>
+    with <m>c_1\neq 0</m>. Then we can move all other vectors to the right-hand side,
+    and multiply both sides by <m>1/c_1</m> to give
+    <me>
+      \vv_1 = -\frac{c_2}{c_1}\vv_2-\cdots - \frac{c_k}{c_1}\vv_k
+    </me>.
+  </p>
+
+  <p>
+    When looking for vectors that span a subspace,
+    it is useful to find a spanning set that is also linearly independent.
+    Otherwise, as <xref ref="theorem-surplus-span"/> tells us,
+    we will have some <q>redundant</q> vectors, in the sense that removing them as generators does not change the span.
+  </p>
+
+  <lemma xml:id="lemma-basic-independent">
+    <statement>
+      <p>
+        In any vector space <m>V</m>:
+        <ol>
+          <li>
+            <p>
+              If <m>\vv\neq\zer</m>, then <m>\{\vv\}</m> is independent.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>S\subseteq V</m> contains the zero vector, then <m>S</m> is dependent.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <proof>
+      <title>Strategy</title>
+      <p>
+        This time, we will outline the strategy, and leave the execution to you.
+        Both parts are about linear combinations.
+        What does independence look like for a single vector?
+        We would need to show that if <m>c\vv=\zer</m> for some scalar <m>c</m>,
+        then <m>c=0</m>.
+        Now recall that in <xref ref="ex-zero-mult-prop"/>,
+        we showed that if <m>c\vv=\zer</m>, either <m>c=0</m> or <m>\vv=\zer</m>.
+        We're assuming <m>\vv=\zer</m>, so what does that tell you about <m>c</m>?
+      </p>
+
+      <p>
+        In the second part, if we have a linear combination involving the zero vector,
+        does the value of the scalar in front of <m>\zer</m> matter?
+        (Can it change the value of the linear combination?)
+        If not, is there any reason that scalar would have to be zero?
+      </p>
+    </proof>
+  </lemma>
+
+  <p>
+    The definition of linear independence tells us that if <m>\{\vv_1,\ldots, \vv_k\}</m>
+    is an independent set of vectors, then there is only one way to write <m>\zer</m>
+    as a linear combination of these vectors; namely,
+    <me>
+      \zer = 0\vv_1+0\vv_2+\cdots +0\vv_k
+    </me>.
+    In fact, more is true: <em>any</em> vector in the span of a linearly independent set
+    can be written in only one way as a linear combination of those vectors.
+  </p>
+
+  <remark xml:id="rem-independent-homogeneous">
+    <statement>
+      <p>
+        Computationally, questions about linear independence are just questions
+        about homogeneous systems of linear equations.
+        For example, suppose we want to know if the vectors
+        <me>
+          \uu=\bbm 1\\-1\\4\ebm, \vv=\bbm 0\\2\\-3\ebm, \ww=\bbm 4\\0\\-3\ebm
+        </me>
+        are linearly independent in <m>\mathbb{R}^3</m>.
+        This question leads to the vector equation
+        <me>
+          x\uu+y\vv+z\ww=\zer
+        </me>,
+        which becomes the matrix equation
+        <me>
+          \bbm 1\amp0\amp4\\-1\amp2\amp0\\4\amp-3\amp-3\ebm\bbm x\\y\\z\ebm = \bbm 0\\0\\0\ebm
+        </me>.
+      </p>
+
+      <p>
+        We now apply some basic theory from linear algebra.
+        A unique (and therefore, trivial) solution to this system is guaranteed if the matrix
+        <m>A = \bbm 1\amp0\amp4\\-1\amp2\amp0\\4\amp-3\amp-3\ebm</m> is invertible,
+        since in that case we have <m>\bbm x\\y\\z\ebm = A^{-1}\zer = \zer</m>.
+      </p>
+    </statement>
+  </remark>
+
+  <p>
+    The approach in <xref ref="rem-independent-homogeneous"/> is problematic,
+    however, since it won't work if we have 2 vectors, or 4.
+    In general, we should look at the reduced row-echelon form.
+    A unique solution corresponds to having a leading 1 in each column of <m>A</m>.
+    Let's check this condition.
+  </p>
+
+  <sage>
+    <input>
+      from sympy import Matrix,init_printing
+      init_printing()
+      A = Matrix(3,3,[1,0,4,-1,2,0,4,-3,-3])
+      A.rref()
+    </input>
+    <output>
+      \[\bbm 1\amp 0\amp 0\\0\amp 1\amp 0\\0\amp 0\amp 1\ebm, (0,1,2)\]
+    </output>
+  </sage>
+
+  <p>
+    One observation is useful here, and will lead to a better understanding of independence.
+    First, it would be impossible to have 4 or more linearly independent vectors in <m>\mathbb{R}^3</m>.
+    Why? (How many leading ones can you have in a <m>3\times 4</m> matrix?)
+    Second, having two or fewer vectors makes it more likely that the set is independent.
+  </p>
+
+  <p>
+    The largest set of linearly independent vectors possible in <m>\mathbb{R}^3</m> contains three vectors.
+    You might have also observed that the smallest number of vectors needed to span <m>\mathbb{R}^3</m> is 3.
+    Hmm. Seems like there's something interesting going on here. But first, some more computation.
+  </p>
+
+  <exercise>
+    <statement>
+      <p>
+        Determine whether the set <m>\left\{\bbm 1\\2\\0\ebm, \bbm -1\\0\\3\ebm,\bbm -1\\4\\9\ebm\right\}</m>
+        is linearly independent in <m>\R^3</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Again, we set up a matrix and reduce:
+      </p>
+
+      <sage>
+        <input>
+          from sympy import Matrix,init_printing
+          init_printing()
+          A = Matrix(3,3,[1,-1,-1,2,0,4,0,3,9])
+          A.rref()
+        </input>
+        <output>
+          \[\bbm 1\amp 0\amp 2\\0\amp 1\amp 3\\0\amp 0\amp 0\ebm, (0,1)\]
+        </output>
+      </sage>
+
+      <p>
+        Notice that this time we don't get a unique solution, so we can conclude that these vectors are <em>not</em> independent.
+        Furthermore, you can probably deduce from the above that we have <m>2\vv_1+3\vv_2-\vv_3=\zer</m>.
+        Now suppose that <m>\ww\in\spn\{\vv_1,\vv_2,\vv_3\}</m>.
+        In how many ways can we write <m>\ww</m> as a linear combination of these vectors?
+      </p>
+    </solution>
+  </exercise>
+
+
+
+  <exercise>
+    <statement>
+      <p>
+        Which of the following subsets of <m>P_2(\mathbb{R})</m> are independent?
+        <md>
+          <mrow>\text{(a) } S_1 = \{x^2+1, x+1, x\}</mrow>
+          <mrow>\text{(b) } S_2 = \{x^2-x+3, 2x^2+x+5, x^2+5x+1\}</mrow>
+        </md>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        In each case, we set up the defining equation for independence, collect terms,
+        and then analyze the resulting system of equations.
+        (If you work with polynomials often enough,
+        you can probably jump straight to the matrix.
+        For now, let's work out the details.)
+      </p>
+
+      <p>
+        Suppose
+        <me>
+          r(x^2+1)+s(x+1)+tx = 0
+        </me>.
+        Then <m>rx^2+(s+t)x+(r+s)=0=0x^2+0x+0</m>, so
+        <md>
+          <mrow>r \amp =0</mrow>
+          <mrow>s+t \amp =0</mrow>
+          <mrow>r+s\amp =0</mrow>
+        </md>.
+      </p>
+      <p>
+        And in this case, we don't even need to ask the computer.
+        The first equation gives <m>r=0</m> right away,
+        and putting that into the third equation gives <m>s=0</m>,
+        and the second equation then gives <m>t=0</m>.
+      </p>
+
+      <p>
+        Since <m>r=s=t=0</m> is the only solution, the set is independent.
+      </p>
+
+      <p>
+        Repeating for <m>S_2</m> leads to the equation
+        <me>
+          (r+2s+t)x^2+(-r+s+5t)x+(3r+5s+t)1=0.
+        </me>
+        This gives us:
+      </p>
+
+      <sage>
+        <input>
+          from sympy import Matrix,init_printing
+          init_printing()
+          A = Matrix(3,3,[1,2,1,-1,1,5,3,5,1])
+          A.rref()
+        </input>
+        <output>
+          \[\bbm 1\amp 0\amp -3\\0\amp 1\amp 2\\0\amp 0\amp 0\ebm, (0,1)\]
+        </output>
+      </sage>
+    </solution>
+  </exercise>
+
+
+
+  <exercise>
+    <statement>
+      <p>
+        Determine whether or not the set
+        <me>
+          \left\{\bbm -1\amp 0\\0\amp -1\ebm, \bbm 1\amp -1\\ -1\amp 1\ebm,
+                 \bbm 1\amp 1\\1\amp 1\ebm, \bbm 0\amp -1\\-1\amp 0\ebm\right\}
+        </me>
+        is linearly independent in <m>M_2(\mathbb{R})</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Again, we set a linear combination equal to the zero vector, and combine:
+        <md>
+          <mrow>a\bbm -1\amp 0\\0\amp -1\ebm +b\bbm 1\amp -1\\ -1\amp 1\ebm
+            +c\bbm 1\amp 1\\1\amp 1\ebm +d \bbm 0\amp -1\\-1\amp 0\ebm = \bbm 0\amp 0\\ 0\amp 0\ebm</mrow>
+          <mrow>\bbm -a+b+c\amp -b+c-d\\-b+c-d\amp -a+b+c\ebm = \bbm 0\amp 0\\0\amp 0\ebm</mrow>
+        </md>.
+      </p>
+
+      <p>
+        We could proceed, but we might instead notice right away that equations 1 and 4 are identical,
+        and so are equations 2 and 3.
+        With only two distinct equations and 4 unknowns, we're certain to find nontrivial solutions.
+      </p>
+    </solution>
+  </exercise>
+
+  <p>
+    We end with one last exercise, which provides a result that often comes in handy.
+  </p>
+
+  <exercise xml:id="ex-independent-subset">
+    <statement>
+      <p>
+        Prove that any nonempty subset of a linearly independent set is linearly independent.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Start by assigning labels: let the larger set be <m>\{\vv_1,\vv_2,\ldots, \vv_n\}</m>,
+        and let the smaller set be <m>\{\vv_1, \ldots, \vv_m\}</m>, where <m>m\leq n</m>.
+        What happens if the smaller set is not independent?
+      </p>
+    </hint>
+  </exercise>
+</section>

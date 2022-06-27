@@ -1,0 +1,4613 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.10.15)  22 MAR 2022 14:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**3410notes.tex
+(./3410notes.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(/usr/share/texlive/texmf-dist/tex/latex/snapshot/snapshot.sty
+Package: snapshot 2020/06/17 v2.14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count173
+\c@chapter=\count174
+\c@section=\count175
+\c@subsection=\count176
+\c@subsubsection=\count177
+\c@paragraph=\count178
+\c@subparagraph=\count179
+\c@figure=\count180
+\c@table=\count181
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/xcoffins/xcoffins.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2020-01-29 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count182
+\l__color_backend_stack_int=\count183
+\g__graphics_track_int=\count184
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count185
+\g__pdf_backend_annotation_int=\count186
+\g__pdf_backend_link_int=\count187
+))
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+Package: xcoffins 2020-01-29 L3 Experimental design level coffins
+\l__coffin_hoffset_dim=\dimen139
+\l__coffin_voffset_dim=\dimen140
+\l__coffin_height_dim=\dimen141
+\l__coffin_depth_dim=\dimen142
+\l__coffin_width_dim=\dimen143
+\l__coffin_totalheight_dim=\dimen144
+)
+\Framex=\box48
+\Theox=\box49
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count188
+\Gm@cntv=\count189
+\c@Gm@tempcnt=\count190
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count191
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box50
+\extrarowheight=\dimen156
+\NC@list=\toks17
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box51
+)
+\everycr=\toks18
+\minrowclearance=\skip51
+)
+\rownum=\count192
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box52
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count193
+\c@pgf@countb=\count194
+\c@pgf@countc=\count195
+\c@pgf@countd=\count196
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count197
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)
+\pgfsys@objnum=\count198
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count199
+\pgfsyssoftpath@bigbuffer@items=\count266
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count267
+\pgfmath@box=\box53
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count268
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count269
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count270
+\pgf@shadingcount=\count271
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box57
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box58
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks29
+\verbatim@line=\toks30
+\verbatim@in@stream=\read3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks31
+)
+\tcb@titlebox=\box59
+\tcb@upperbox=\box60
+\tcb@lowerbox=\box61
+\tcb@phantombox=\box62
+\c@tcbbreakpart=\count272
+\c@tcblayer=\count273
+\c@tcolorbox@number=\count274
+\tcb@temp=\box63
+\tcb@temp=\box64
+\tcb@temp=\box65
+\tcb@temp=\box66
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count275
+\pgfplotmarksize=\dimen198
+)
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count276
+\tikznumberofchildren=\count277
+\tikznumberofcurrentchild=\count278
+\tikz@fig@count=\count279
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count280
+\pgfmatrixcurrentcolumn=\count281
+\pgf@matrix@numberofcolumns=\count282
+)
+\tikz@expandcount=\count283
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+\tcb@waterbox=\box71
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.42'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.42'
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box72
+\tcb@totalupperbox=\box73
+\tcb@totallowerbox=\box74
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '4.42'
+\c@tcbrastercolumn=\count284
+\c@tcbrasterrow=\count285
+\c@tcbraster=\count286
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.42'
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count287
+\l__fontspec_language_int=\count288
+\l__fontspec_strnum_int=\count289
+\l__fontspec_tmp_int=\count290
+\l__fontspec_tmpa_int=\count291
+\l__fontspec_tmpb_int=\count292
+\l__fontspec_tmpc_int=\count293
+\l__fontspec_em_int=\count294
+\l__fontspec_emdef_int=\count295
+\l__fontspec_strong_int=\count296
+\l__fontspec_strongdef_int=\count297
+\l__fontspec_tmpa_dim=\dimen263
+\l__fontspec_tmpb_dim=\dimen264
+\l__fontspec_tmpc_dim=\dimen265
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
+ts
+\subsupersep=\dimen266
+)
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks34
+\xl@@everylogo=\toks35
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\l__xetex_show_hyphens_wrapping_box=\box75
+\l__xetex_show_hyphens_temp_box=\box76
+\l__xetex_show_hyphens_final_box=\box77
+\g__xetex_show_hyphens_word_box=\box78
+)
+
+Package fontspec Info: Font family 'Latte-Regular(0)' created for font
+(fontspec)             'Latte-Regular' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/OT:script=latn;language=dflt;mapping=t
+ex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/OT:script=latn;language=dflt;+smcp;map
+ping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/B/OT:script=latn;language=dflt;mapping
+=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/B/OT:script=latn;language=dflt;+smcp;m
+apping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/I/OT:script=latn;language=dflt;mapping
+=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/I/OT:script=latn;language=dflt;+smcp;m
+apping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/BI/OT:script=latn;language=dflt;mappin
+g=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/BI/OT:script=latn;language=dflt;+smcp;
+mapping=tex-text;"
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+Package: zi4 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count298
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count299
+)
+
+Package fontspec Info: Font family 'Inconsolatazi4-Regular.otf(0)' created for
+(fontspec)             font 'Inconsolatazi4-Regular.otf' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,BoldFont=Inconsolatazi4-Bold.otf,StylisticSet={1,3}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Inconsolatazi4-Regular.otf]/OT:script=latn;language
+=dflt;+ss01;+ss03;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Inconsolatazi4-Bold.otf]/OT:script=latn;language=df
+lt;+ss01;+ss03;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2020/12/08 v1.51 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+)
+\xpg@normalclass=\XeTeXcharclass1
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for english
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+Package polyglossia Info: Default language is english.
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+\MT@toks=\toks38
+\MT@count=\count300
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen267
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count301
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks39
+\ex@=\dimen268
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen269
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count302
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count303
+\leftroot@=\count304
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count305
+\DOTSCASE@=\count306
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box79
+\strutbox@=\box80
+\big@size=\dimen270
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count307
+\c@MaxMatrixCols=\count308
+\dotsspace@=\muskip16
+\c@parentequation=\count309
+\dspbrk@lvl=\count310
+\tag@help=\toks40
+\row@=\count311
+\column@=\count312
+\maxfields@=\count313
+\andhelp@=\toks41
+\eqnshift@=\dimen271
+\alignsep@=\dimen272
+\tagshift@=\dimen273
+\tagwidth@=\dimen274
+\totwidth@=\dimen275
+\lineht@=\dimen276
+\@envbody=\toks42
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks43
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
+\athelp@=\toks44
+\minaw@=\dimen277
+\bigaw@=\dimen278
+\minCDarrowwidth=\dimen279
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box81
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
+\ttl@plus=\dimen280
+\ttl@minus=\dimen281
+\ttl@toksa=\toks45
+\titlewidth=\dimen282
+\titlewidthlast=\dimen283
+\titlewidthfirst=\dimen284
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titleps.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2019/10/16 v2.13 TOC entries
+\ttl@leftsep=\dimen285
+)
+\workspacestrutwidth=\skip57
+
+(/usr/share/texlive/texmf-dist/tex/latex/qrcode/qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+\c@qr@i=\count314
+\c@qr@j=\count315
+\qr@a=\count316
+\qr@b=\count317
+\qr@c=\count318
+\qr@for@depth=\count319
+\qr@for@maxdepth=\count320
+\qr@for@start=\count321
+\qr@for@end=\count322
+\qr@for@step=\count323
+\qr@newforcount=\count324
+\qr@newforcount=\count325
+\qr@desiredheight=\skip58
+\qr@modulesize=\skip59
+\qr@minipagewidth=\skip60
+\c@maski=\count326
+\c@maskj=\count327
+\c@totalones=\count328
+\c@penaltyi=\count329
+\c@penaltyii=\count330
+\c@penaltyiii=\count331
+\c@penaltyiv=\count332
+\c@qr@hexchars=\count333
+\qr@newforcount=\count334
+\c@qr@divisionsremaining=\count335
+)
+\qrsize=\skip61
+\previewwidth=\skip62
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.42'
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count336
+\lst@gtempboxa=\box82
+\lst@token=\toks46
+\lst@length=\count337
+\lst@currlwidth=\dimen286
+\lst@column=\count338
+\lst@pos=\count339
+\lst@lostspace=\dimen287
+\lst@width=\dimen288
+\lst@newlines=\count340
+\lst@lineno=\count341
+\lst@maxwidth=\dimen289
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count342
+\lst@skipnumbers=\count343
+\lst@framebox=\box83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.42'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.42'
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count344
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count345
+\FV@InFile=\read4
+\FV@TabBox=\box84
+\c@FancyVerbLine=\count346
+\FV@StepNumber=\count347
+\FV@OutFile=\write6
+)
+\codedisplaybox=\box85
+
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip63
+\enit@outerparindent=\dimen290
+\enit@toks=\toks47
+\enit@inbox=\box86
+\enit@count@id=\count348
+\enitdp@description=\count349
+)
+\dlititlewidth=\skip64
+\dlimaxnarrowtitle=\skip65
+\dlimaxmediumtitle=\skip66
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen291
+\Hy@linkcounter=\count350
+\Hy@pagecounter=\count351
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count352
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count353
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen292
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count354
+\Field@Width=\dimen293
+\Fld@charsize=\dimen294
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count355
+\c@Item=\count356
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box87
+\c@Hy@AnnotLevel=\count357
+\HyField@AnnotCount=\count358
+\Fld@listcount=\count359
+\c@bookmark@seq@number=\count360
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip67
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 616.
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+)
+\c@tcb@cnt@block=\count361
+\c@tcb@cnt@project-distinct=\count362
+\c@tcb@cnt@subdisplay=\count363
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks48
+\t@pgfplots@tokb=\toks49
+\t@pgfplots@tokc=\toks50
+\pgfplots@tmpa=\dimen295
+\c@pgfplots@coordindex=\count364
+\c@pgfplots@scanlineindex=\count365
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count366
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count367
+\t@pgfplotstable@a=\toks51
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count368
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-xetex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count369
+))))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen296
+\pgfdecoratedremainingdistance=\dimen297
+\pgfdecoratedinputsegmentcompleteddistance=\dimen298
+\pgfdecoratedinputsegmentremainingdistance=\dimen299
+\pgf@decorate@distancetomove=\dimen300
+\pgf@decorate@repeatstate=\count370
+\pgfdecorationsegmentamplitude=\dimen301
+\pgfdecorationsegmentlength=\dimen302
+)
+\tikz@lib@dec@box=\box88
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count371
+\pgfplots@xmin@reg=\dimen303
+\pgfplots@xmax@reg=\dimen304
+\pgfplots@ymin@reg=\dimen305
+\pgfplots@ymax@reg=\dimen306
+\pgfplots@zmin@reg=\dimen307
+\pgfplots@zmax@reg=\dimen308
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen309
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen310
+\pgfarrowlength=\dimen311
+\pgfarrowwidth=\dimen312
+\pgfarrowlinewidth=\dimen313
+) (/usr/share/texlive/texmf-dist/tex/latex/extpfeil/extpfeil.sty
+Package: extpfeil 2009/10/31 v0.4 Extensible Pfeile (PE)
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count372
+\calc@Bcount=\count373
+\calc@Adimen=\dimen314
+\calc@Bdimen=\dimen315
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count374
+\calc@Cskip=\skip70
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count375
+\l_MT_multwidth_dim=\dimen316
+\origjot=\skip71
+\l_MT_shortvdotswithinadjustabove_dim=\dimen317
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen318
+\l_MT_above_intertext_sep=\dimen319
+\l_MT_below_intertext_sep=\dimen320
+\l_MT_above_shortintertext_sep=\dimen321
+\l_MT_below_shortintertext_sep=\dimen322
+\xmathstrut@box=\box89
+\xmathstrut@dim=\dimen323
+)
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+))
+\Textw=\skip72
+\Hshift=\skip73
+\Mshift=\skip74
+
+
+! LaTeX Error: Command \C already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.803 \newcommand{\C}{\mathbb{C}}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+No file 3410notes.aux.
+\openout1 = `3410notes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 830.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+30.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 830.
+LaTeX Font Info:    ... okay on input line 830.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 340.0pt, 202.02501pt)
+* v-part:(T,H,B)=(72.27pt, 650.43pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=340.0pt
+* \textheight=650.43pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06747pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=29.0pt
+* \marginparwidth=140.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 830.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 830.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 830.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 830.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 830.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 830.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 830.
+LaTeX Font Info:    Redeclaring math accent \check on input line 830.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 830.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 830.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 830.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 830.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 830.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 830.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Latte-Regular(0)/m/n on input line 8
+30.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 830.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Latte-Regular(0)/m/n on input line 
+830.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Latte-Regular(0)/m/n --> TU/Latte-Regular(0)/m/n on 
+input line 830.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Latte-Regular(0)/m/it on input line
+ 830.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Latte-Regular(0)/b/n on input line 
+830.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 830.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(0)/m/n o
+n input line 830.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Latte-Regular(0)/m/n --> TU/Latte-Regular(0)/b/n on 
+input line 830.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Latte-Regular(0)/b/it on input lin
+e 830.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 830.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(0)/b/n o
+n input line 830.
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+LaTeX Info: Redefining \microtypecontext on input line 830.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Latte-Regular' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+\c@lstlisting=\count376
+Package hyperref Info: Link coloring ON on input line 830.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count377
+)
+LaTeX Info: Redefining \ref on input line 830.
+LaTeX Info: Redefining \pageref on input line 830.
+LaTeX Info: Redefining \nameref on input line 830.
+\@outlinefile=\write7
+\openout7 = `3410notes.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
+your preamble.
+ on input line 830.
+
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+LaTeX Info: Redefining \rmfamily on input line 830.
+LaTeX Info: Redefining \sffamily on input line 830.
+LaTeX Info: Redefining \ttfamily on input line 830.
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+[1
+
+
+] [2
+
+] [3
+
+]
+************************************************
+Preface Preface
+************************************************
+
+Package fontspec Info: Font family 'Latte-Regular(1)' created for font
+(fontspec)             'Latte-Regular' with options
+(fontspec)             [Ligatures=TeX,VerticalPosition=Superior].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/OT:script=latn;language=dflt;+sups;map
+ping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/OT:script=latn;language=dflt;+sups;+sm
+cp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/B/OT:script=latn;language=dflt;+sups;m
+apping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/B/OT:script=latn;language=dflt;+sups;+
+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/I/OT:script=latn;language=dflt;+sups;m
+apping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/I/OT:script=latn;language=dflt;+sups;+
+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/BI/OT:script=latn;language=dflt;+sups;
+mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Latte-Regular/BI/OT:script=latn;language=dflt;+sups;
++smcp;mapping=tex-text;"
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Inconsolatazi4-Regular.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 878
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 878
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 8
+78.
+
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+) [4
+
+
+]
+\tf@toc=\write8
+\openout8 = `3410notes.toc'.
+
+ [5
+
+]
+************************************************
+Chapter 1 Vector spaces
+************************************************
+Chapter 1.
+
+Overfull \hbox (0.44708pt too wide) in paragraph at lines 901--902
+\TU/Latte-Regular(0)/m/n/10 multiplication are not unique to vectors, as vector
+s were understood in your first course
+ []
+
+************************************************
+Section 1.1 Abstract vector spaces
+************************************************
+[1
+
+
+]
+
+LaTeX Warning: Command \C invalid in math mode on input line 955.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.955 ...bers \(\R\), and the complex numbers \(\C
+                                                  \).%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 957.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.957 ...r algebra work exactly the same over \(\C
+                                                  \) as they do over \(\R\)....
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Hyper reference `x:definition:def-vector-space' on page 2 undefi
+ned on input line 959.
+
+
+LaTeX Warning: Reference `x:definition:def-vector-space' on page 2 undefined on
+ input line 959.
+
+
+Overfull \hbox (3.22342pt too wide) detected at line 967
+[]
+ []
+
+LaTeX Font Info:    Font shape `TU/Latte-Regular(0)/m/sl' in size <10> not avai
+lable
+(Font)              Font shape `TU/Latte-Regular(0)/m/it' tried instead on inpu
+t line 991.
+[2]
+
+LaTeX Warning: Hyper reference `x:definition:def-vector-space' on page 3 undefi
+ned on input line 994.
+
+
+LaTeX Warning: Reference `x:definition:def-vector-space' on page 3 undefined on
+ input line 994.
+
+[3]
+************************************************
+Section 1.2 Subspaces
+************************************************
+[4]
+
+LaTeX Warning: Hyper reference `x:exercise:ex-more-props' on page 5 undefined o
+n input line 1061.
+
+
+LaTeX Warning: Reference `x:exercise:ex-more-props' on page 5 undefined on inpu
+t line 1061.
+
+[5]
+************************************************
+Section 1.3 Span
+************************************************
+[6]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-subspace-test' on page 7 undefine
+d on input line 1124.
+
+
+LaTeX Warning: Reference `x:theorem:thm-subspace-test' on page 7 undefined on i
+nput line 1124.
+
+
+LaTeX Warning: Hyper reference `x:theorem:theorem-surplus-span' on page 7 undef
+ined on input line 1142.
+
+
+LaTeX Warning: Reference `x:theorem:theorem-surplus-span' on page 7 undefined o
+n input line 1142.
+
+
+LaTeX Warning: Hyper reference `x:section:sec-independence' on page 7 undefined
+ on input line 1142.
+
+
+LaTeX Warning: Reference `x:section:sec-independence' on page 7 undefined on in
+put line 1142.
+
+************************************************
+Worksheet 1.4 Worksheet: understanding span
+************************************************
+[7]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
+* v-part:(T,H,B)=(35.56593pt, 723.83812pt, 35.56593pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=543.16313pt
+* \textheight=723.83812pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-66.77155pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=29.0pt
+* \marginparwidth=140.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+LaTeX Warning: Hyper reference `x:section:sec-span' on page 8 undefined on inpu
+t line 1153.
+
+
+LaTeX Warning: Reference `x:section:sec-span' on page 8 undefined on input line
+ 1153.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1171
+
+ []
+
+
+LaTeX Warning: Hyper reference `x:section:sec-sympy' on page 8 undefined on inp
+ut line 1172.
+
+
+LaTeX Warning: Reference `x:section:sec-sympy' on page 8 undefined on input lin
+e 1172.
+
+\openout4 = `3410notes.listing'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(./3410notes.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1183
+
+ []
+
+[8
+
+]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing
+LaTeX Font Info:    Trying to load font information for TS1+Inconsolatazi4-Regu
+lar.otf(0) on input line 6.
+LaTeX Font Info:    No file TS1Inconsolatazi4-Regular.otf(0).fd. on input line 
+6.
+
+
+LaTeX Font Warning: Font shape `TS1/Inconsolatazi4-Regular.otf(0)/m/n' undefine
+d
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textquotesingle' on input line 6.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Inconsolatazi4-Regular.otf' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1227--1227
+
+ []
+
+[9
+
+]
+************************************************
+Section 1.5 Linear Independence
+************************************************
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing) [10
+
+]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+************************************************
+Section 1.6 Basis and dimension
+************************************************
+[11]
+
+LaTeX Warning: Hyper reference `x:theorem:theorem-surplus-span' on page 12 unde
+fined on input line 1330.
+
+
+LaTeX Warning: Reference `x:theorem:theorem-surplus-span' on page 12 undefined 
+on input line 1330.
+
+[12] [13]
+Overfull \hbox (10.8745pt too wide) in paragraph at lines 1418--1421
+[]\TU/Latte-Regular(0)/m/n/10 This is, in fact, an “if and only if” result. If 
+$[] \OMS/cmsy/m/n/10 2 []f[][]\OML/cmm/m/it/10 ; [] ; [][]\OMS/cmsy/m/n/10 g$\T
+U/Latte-Regular(0)/m/n/10 , then $\OMS/cmsy/m/n/10 f[]\OML/cmm/m/it/10 ; [][]; 
+[] ; [][]\OMS/cmsy/m/n/10 g$
+ []
+
+
+LaTeX Warning: Hyper reference `x:lemma:lemma-independent' on page 14 undefined
+ on input line 1423.
+
+
+LaTeX Warning: Reference `x:lemma:lemma-independent' on page 14 undefined on in
+put line 1423.
+
+[14]
+
+LaTeX Warning: Hyper reference `x:theorem:theorem-steinitz' on page 15 undefine
+d on input line 1474.
+
+
+LaTeX Warning: Reference `x:theorem:theorem-steinitz' on page 15 undefined on i
+nput line 1474.
+
+[15] [16]
+************************************************
+Chapter 2 Linear Transformations
+************************************************
+[17]
+Chapter 2.
+************************************************
+Section 2.1 Definition and examples
+************************************************
+[18
+
+]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-lt-props' on page 19 undefined on
+ input line 1628.
+
+
+LaTeX Warning: Reference `x:theorem:thm-lt-props' on page 19 undefined on input
+ line 1628.
+
+[19]
+
+LaTeX Warning: Hyper reference `x:example:ex-matrix-trans' on page 20 undefined
+ on input line 1667.
+
+
+LaTeX Warning: Reference `x:example:ex-matrix-trans' on page 20 undefined on in
+put line 1667.
+
+[20] [21]
+************************************************
+Section 2.2 Kernel and Image
+************************************************
+[22] [23]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [24]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [25]
+Overfull \hbox (7.08247pt too wide) detected at line 1898
+\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 + \OML/cm
+m/m/it/10 B\OT1/cmr/m/n/10 ) = (\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 + \OML/cmm/m
+/it/10 B\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/1
+0 A \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )[] = (\OML/cmm/m/it/10
+ A \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 ) + (\OML/cmm/m/it/
+10 B \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 B[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it
+/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 T\
+OT1/cmr/m/n/10 (\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )
+ []
+
+[26]
+
+LaTeX Warning: Hyper reference `x:exercise:ex_lintrans-indep' on page 27 undefi
+ned on input line 1947.
+
+
+LaTeX Warning: Reference `x:exercise:ex_lintrans-indep' on page 27 undefined on
+ input line 1947.
+
+
+LaTeX Warning: Hyper reference `x:men:eqn-almost-span' on page 27 undefined on 
+input line 1971.
+
+
+LaTeX Warning: Reference `x:men:eqn-almost-span' on page 27 undefined on input 
+line 1971.
+
+[27]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-subspace-dim' on page 28 undefine
+d on input line 1989.
+
+
+LaTeX Warning: Reference `x:theorem:thm-subspace-dim' on page 28 undefined on i
+nput line 1989.
+
+[28]
+************************************************
+Section 2.3 Isomorphisms (a.k.a. invertible linear maps)
+************************************************
+
+LaTeX Warning: Hyper reference `x:exercise:ex-dimension-injection-surjection' o
+n page 29 undefined on input line 2014.
+
+
+LaTeX Warning: Reference `x:exercise:ex-dimension-injection-surjection' on page
+ 29 undefined on input line 2014.
+
+
+LaTeX Warning: Hyper reference `x:exercise:ex-dimension-injection-surjection' o
+n page 29 undefined on input line 2022.
+
+
+LaTeX Warning: Reference `x:exercise:ex-dimension-injection-surjection' on page
+ 29 undefined on input line 2022.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-define-using-basis' on page 29 un
+defined on input line 2024.
+
+
+LaTeX Warning: Reference `x:theorem:thm-define-using-basis' on page 29 undefine
+d on input line 2024.
+
+
+LaTeX Warning: Hyper reference `x:exercise:ex-dimension-injection-surjection' o
+n page 29 undefined on input line 2024.
+
+
+LaTeX Warning: Reference `x:exercise:ex-dimension-injection-surjection' on page
+ 29 undefined on input line 2024.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-iso-dimension' on page 29 undefin
+ed on input line 2030.
+
+
+LaTeX Warning: Reference `x:theorem:thm-iso-dimension' on page 29 undefined on 
+input line 2030.
+
+[29]
+
+LaTeX Warning: Hyper reference `x:figure:fig_transformation_matrix' on page 30 
+undefined on input line 2048.
+
+
+LaTeX Warning: Reference `x:figure:fig_transformation_matrix' on page 30 undefi
+ned on input line 2048.
+
+
+Overfull \hbox (0.11783pt too wide) in paragraph at lines 2069--2069
+\TU/Latte-Regular(0)/m/n/10 a linear map with respect to choices
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2069--2070
+
+ []
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-iso-dimension' on page 30 undefin
+ed on input line 2087.
+
+
+LaTeX Warning: Reference `x:theorem:thm-iso-dimension' on page 30 undefined on 
+input line 2087.
+
+[30]
+************************************************
+Worksheet 2.4 Worksheet: matrix transformations
+************************************************
+[31]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
+* v-part:(T,H,B)=(35.56593pt, 723.83812pt, 35.56593pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=543.16313pt
+* \textheight=723.83812pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-66.77155pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=29.0pt
+* \marginparwidth=140.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2135--2135
+
+ []
+
+
+Overfull \hbox (92.15741pt too wide) in paragraph at lines 2136--2137
+[]\TU/Latte-Regular(0)/m/n/10 To assist with solving this problem, a code cell 
+is provided below. Recall that you can enter the matrix $[]$ as \TU/Inconsolata
+zi4-Regular.otf(0)/m/n/10 Matrix([[a,b,c],[d,e,f],[g,h,i]])
+ []
+
+[32
+
+]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2152
+
+ []
+
+[33
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2166--2166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2169--2169
+
+ []
+
+[34
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2178--2178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+
+ []
+
+[35
+
+]
+************************************************
+Worksheet 2.5 Worksheet: linear recurrences
+************************************************
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
+* v-part:(T,H,B)=(35.56593pt, 723.83812pt, 35.56593pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=543.16313pt
+* \textheight=723.83812pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-66.77155pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=29.0pt
+* \marginparwidth=140.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[36
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2251
+
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing) [37
+
+]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 2293--2293
+
+ []
+
+[38
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2301--2301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2305--2305
+
+ []
+
+[39
+
+]
+************************************************
+Chapter 3 Orthogonality and Applications
+************************************************
+Chapter 3.
+************************************************
+Section 3.1 Orthogonal sets of vectors
+************************************************
+
+LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
+(Font)              using `U/stmry/m/n' instead on input line 2328.
+
+************************************************
+Subsection 3.1.1 Basic definitions and properties
+************************************************
+
+Overfull \hbox (20.43903pt too wide) in paragraph at lines 2353--2356
+[]\TU/Latte-Regular(0)/m/n/10 Note that both the dot product and the norm produ
+ce scalars. Through the Pythagorean
+ []
+
+[40
+
+
+] [41]
+
+LaTeX Warning: Hyper reference `x:exercise:ex-norm-sum-square' on page 42 undef
+ined on input line 2413.
+
+
+LaTeX Warning: Reference `x:exercise:ex-norm-sum-square' on page 42 undefined o
+n input line 2413.
+
+************************************************
+Subsection 3.1.2 Orthogonal sets of vectors
+************************************************
+[42] [43]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-fourier-expansion' on page 44 und
+efined on input line 2495.
+
+
+LaTeX Warning: Reference `x:theorem:thm-fourier-expansion' on page 44 undefined
+ on input line 2495.
+
+
+LaTeX Warning: Hyper reference `x:exercise:ex-orthogonal-set' on page 44 undefi
+ned on input line 2497.
+
+
+LaTeX Warning: Reference `x:exercise:ex-orthogonal-set' on page 44 undefined on
+ input line 2497.
+
+
+LaTeX Warning: Hyper reference `x:exercise:ex-orthogonal-set' on page 44 undefi
+ned on input line 2508.
+
+
+LaTeX Warning: Reference `x:exercise:ex-orthogonal-set' on page 44 undefined on
+ input line 2508.
+
+[44]
+************************************************
+Section 3.2 Orthogonal Projection
+************************************************
+
+LaTeX Warning: Hyper reference `x:exercise:ex-test-span' on page 45 undefined o
+n input line 2543.
+
+
+LaTeX Warning: Reference `x:exercise:ex-test-span' on page 45 undefined on inpu
+t line 2543.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-fourier-expansion' on page 45 und
+efined on input line 2543.
+
+************************************************
+Subsection 3.2.1 The Gram-Schmidt Procedure
+************************************************
+
+LaTeX Warning: Hyper reference `x:theorem:thm-fourier-expansion' on page 45 und
+efined on input line 2556.
+
+
+Overfull \hbox (32.60268pt too wide) in paragraph at lines 2565--2566
+[]\TU/Latte-Regular(0)/b/it/10 If $[] [] []\OMS/cmsy/m/n/10 f[][]\OML/cmm/m/it/
+10 ; [] ; [][]\OMS/cmsy/m/n/10 g$\TU/Latte-Regular(0)/b/it/10 , then $[][] \OMS
+/cmsy/m/n/10 6\OT1/cmr/m/n/10 = []$\TU/Latte-Regular(0)/b/it/10 , and therefore
+, $\OMS/cmsy/m/n/10 f[][]\OML/cmm/m/it/10 ; [] ; [][]; [][]\OMS/cmsy/m/n/10 g$
+ []
+
+[45]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-fourier-expansion' on page 46 und
+efined on input line 2577.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-orthogonal-lemma' on page 46 unde
+fined on input line 2581.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-orthogonal-lemma' on page 46 unde
+fined on input line 2583.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-orthogonal-lemma' on page 46 unde
+fined on input line 2587.
+
+[46]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+Overfull \hbox (106.64948pt too wide) in paragraph at lines 1--2643
+[][][][][][][][][][][][][][]  
+ []
+
+[47]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Overfull \hbox (214.65057pt too wide) in paragraph at lines 3--2652
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Overfull \hbox (106.64948pt too wide) in paragraph at lines 1--2660
+[][][][][][][][][][][][][][][]  
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+
+LaTeX Warning: Hyper reference `x:theorem:thm-gram-schmidt' on page 48 undefine
+d on input line 2677.
+
+
+Overfull \hbox (25.5598pt too wide) in paragraph at lines 2690--2690
+\TU/Latte-Regular(0)/m/n/10 fractions (momentarily), and doesn’t
+ []
+
+
+Overfull \hbox (1.6598pt too wide) in paragraph at lines 2690--2690
+\TU/Latte-Regular(0)/m/n/10 affect the answer, since for any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2690--2691
+
+ []
+
+************************************************
+Subsection 3.2.2 Projections
+************************************************
+[48]
+Overfull \hbox (4.55623pt too wide) in paragraph at lines 2722--2722
+[] []\TU/Latte-Regular(0)/m/n/10 One limitation of this approach
+ []
+
+
+Overfull \hbox (2.30305pt too wide) in paragraph at lines 2722--2722
+\TU/Latte-Regular(0)/m/n/10 project onto a subspace. Given
+ []
+
+
+Overfull \hbox (7.18425pt too wide) in paragraph at lines 2722--2722
+\TU/Latte-Regular(0)/m/n/10 late everything to the origin. It’s
+ []
+
+
+Overfull \hbox (0.61742pt too wide) in paragraph at lines 2722--2722
+\TU/Latte-Regular(0)/m/n/10 this might be accomplished (in
+ []
+
+
+Overfull \hbox (16.3785pt too wide) in paragraph at lines 2722--2722
+\TU/Latte-Regular(0)/m/n/10 particular, in what direction would
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2722--2723
+
+ []
+
+[49]
+
+LaTeX Warning: Hyper reference `x:definition:def-ortho-projection' on page 50 u
+ndefined on input line 2759.
+
+
+LaTeX Warning: Reference `x:definition:def-ortho-projection' on page 50 undefin
+ed on input line 2759.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-construct-complement' on page 50 
+undefined on input line 2767.
+
+
+LaTeX Warning: Reference `x:theorem:thm-construct-complement' on page 50 undefi
+ned on input line 2767.
+
+[50]
+
+LaTeX Warning: Hyper reference `x:definition:def-ortho-projection' on page 51 u
+ndefined on input line 2784.
+
+
+LaTeX Warning: Reference `x:definition:def-ortho-projection' on page 51 undefin
+ed on input line 2784.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-projection' on page 51 undefined 
+on input line 2790.
+
+
+LaTeX Warning: Reference `x:theorem:thm-projection' on page 51 undefined on inp
+ut line 2790.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-dimension-lintrans' on page 51 un
+defined on input line 2800.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-construct-complement' on page 51 
+undefined on input line 2804.
+
+
+LaTeX Warning: Reference `x:theorem:thm-construct-complement' on page 51 undefi
+ned on input line 2804.
+
+************************************************
+Worksheet 3.3 Worksheet: dual basis.
+************************************************
+[51]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
+* v-part:(T,H,B)=(35.56593pt, 723.83812pt, 35.56593pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=543.16313pt
+* \textheight=723.83812pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-66.77155pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=29.0pt
+* \marginparwidth=140.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [52
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2872--2872
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2876--2876
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2881--2881
+
+ []
+
+[53
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2893--2893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2905--2905
+
+ []
+
+[54
+
+] [55
+
+]
+************************************************
+Chapter 4 Diagonalization
+************************************************
+Chapter 4.
+************************************************
+Section 4.1 Eigenvalues and Eigenvectors
+************************************************
+
+LaTeX Warning: Hyper reference `x:men:eq-eigen-null' on page 56 undefined on in
+put line 2981.
+
+
+LaTeX Warning: Reference `x:men:eq-eigen-null' on page 56 undefined on input li
+ne 2981.
+
+
+LaTeX Warning: Hyper reference `x:men:eq-eigen-null' on page 56 undefined on in
+put line 2981.
+
+
+LaTeX Warning: Reference `x:men:eq-eigen-null' on page 56 undefined on input li
+ne 2981.
+
+[56
+
+
+] [57] [58]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-multiplicity' on page 59 undefine
+d on input line 3062.
+
+
+LaTeX Warning: Reference `x:theorem:thm-multiplicity' on page 59 undefined on i
+nput line 3062.
+
+
+Overfull \hbox (0.56775pt too wide) in paragraph at lines 3063--3065
+[]$ \TU/Latte-Regular(0)/b/it/10 be the matrix whose columns are the basis vect
+ors. (Note
+ []
+
+
+LaTeX Warning: Hyper reference `x:lemma:lem-block-eigen' on page 59 undefined o
+n input line 3082.
+
+
+LaTeX Warning: Reference `x:lemma:lem-block-eigen' on page 59 undefined on inpu
+t line 3082.
+
+
+Overfull \hbox (14.20595pt too wide) in paragraph at lines 3082--3083
+[]\TU/Latte-Regular(0)/m/n/10 We can use Lemma [] to prove that $[] \OML/cmm/m/
+it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 
+^^T \OML/cmm/m/it/10 m$ \TU/Latte-Regular(0)/m/n/10 as follows. Suppose $\OMS/c
+msy/m/n/10 f[][]\OML/cmm/m/it/10 ; [] ; [][]\OMS/cmsy/m/n/10 g$
+ []
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-multiplicity' on page 59 undefine
+d on input line 3092.
+
+
+LaTeX Warning: Reference `x:theorem:thm-multiplicity' on page 59 undefined on i
+nput line 3092.
+
+************************************************
+Section 4.2 Diagonalization of symmetric matrices
+************************************************
+[59] [60]
+************************************************
+Section 4.3 Quadratic forms
+************************************************
+[61]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-real-spectral' on page 62 undefin
+ed on input line 3180.
+
+
+LaTeX Warning: Hyper reference `x:definition:def-quadratic-form' on page 62 und
+efined on input line 3188.
+
+
+LaTeX Warning: Reference `x:definition:def-quadratic-form' on page 62 undefined
+ on input line 3188.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [62]
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+************************************************
+Section 4.4 Diagonalization of complex matrices
+************************************************
+
+LaTeX Warning: Command \C invalid in math mode on input line 3252.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3252 In fact, if we replace \(\R\) by \(\C
+                                            \), about the only thing we'd ha...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+************************************************
+Subsection 4.4.1 Review of complex numbers
+************************************************
+
+LaTeX Warning: Command \C invalid in math mode on input line 3263.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3263 \C
+          = \{x+iy \,|\, x,y\in \R\},
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[63]
+
+LaTeX Warning: Command \C invalid in math mode on input line 3265.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3265 ...(i=\sqrt{-1}\). We have a bijection \(\C
+                                                   \to \R^2\) given by \(x+i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3265.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3265 ...; because of this, we often picture \(\C
+                                                  \) as the \emph{complex pl...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3272.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3272 ...ave \(c(x+iy)=(cx)+i(cy)\), so that \(\C
+                                                  \) has the structure of a ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3290.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3290 .... The difference between \(\R\) and \(\C
+                                                  \) only really materialize...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3292.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3292 One place where \(\C
+                           \) is \emph{computationally} more complicated is ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[64]
+************************************************
+Subsection 4.4.2 Complex vectors
+************************************************
+
+LaTeX Warning: Command \C invalid in math mode on input line 3333.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3333 ...e where the scalars are elements of \(\C
+                                                  \) rather than \(\R\). Exa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3333.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3333 ...ents, complex-valued functions, and \(\C
+                                                  ^n\), which is defined exa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3333.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3333 ...ould be. In fact, one way to obtain \(\C
+                                                  ^n\) is to start with the ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3335.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3335 We'll write elements of \(\C
+                                   ^n\) as \(\zz = (z_1,z_2,\ldots, z_n)\). ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3341.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3341 The standard inner product on \(\C
+                                         ^n\) looks a lot like the dot produ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3343.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3343 ...minology{standard inner product} on \(\C
+                                                  ^n\) is defined as follows...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (13.90213pt too wide) in paragraph at lines 3342--3344
+\TU/Latte-Regular(0)/m/n/10 The \TU/Latte-Regular(0)/b/n/10 standard inner prod
+uct \TU/Latte-Regular(0)/m/n/10 on $[]$ is defined as follows: given $[] \OT1/c
+mr/m/n/10 = (\OML/cmm/m/it/10 z[]; z[]; [] ; z[]\OT1/cmr/m/n/10 )$
+ []
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3349.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3349 ... positive-definite inner product on \(\C
+                                                  ^n\):%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[65]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [66]
+
+LaTeX Warning: Command \C invalid in math mode on input line 3409.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3409 ... \(\zz = (z_1,z_2,\ldots, z_n)\) in \(\C
+                                                  ^n\) is given by%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+************************************************
+Subsection 4.4.3 Complex matrices
+************************************************
+
+LaTeX Warning: Command \C invalid in math mode on input line 3426.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3426 ...e} of a matrix \(A=[a_{ij}]\in M_{mn}(\C
+                                                  )\) is the matrix \(\bar{A...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3434.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3434 An \(n\times n\) matrix \(A\in M_{nn}(\C
+                                               )\) is called \terminology{he...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[67]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Overfull \hbox (75.3963pt too wide) in paragraph at lines 3440--3444
+\TU/Latte-Regular(0)/m/n/10 (There appears to also be an equivalent operation n
+amed \TU/Inconsolatazi4-Regular.otf(0)/m/n/10 Dagger \TU/Latte-Regular(0)/m/n/1
+0 coming from \TU/Inconsolatazi4-Regular.otf(0)/m/n/10 sympy.physics.quantum\TU
+/Latte-Regular(0)/m/n/10 ,
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing
+Overfull \hbox (63.44904pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+)
+Overfull \hbox (106.64948pt too wide) in paragraph at lines 4--3458
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (4.80124pt too wide) in paragraph at lines 3459--3460
+\TU/Latte-Regular(0)/m/n/10 esting is that in a Sage cell, \TU/Inconsolatazi4-R
+egular.otf(0)/m/n/10 B.H == B**-1 \TU/Latte-Regular(0)/m/n/10 yields \TU/Incons
+olatazi4-Regular.otf(0)/m/n/10 False\TU/Latte-Regular(0)/m/n/10 , but \TU/Incon
+solatazi4-Regular.otf(0)/m/n/10 B.H == simplify(B**-1)
+ []
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3467.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3467 for any \(\zz,\ww\in\C
+                             ^n\)%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3474.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3474 ...z, A\ww\rangle\) for all \(\zz,\ww\in \C
+                                                  ^n\), and let \(\basis{e}{...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3474.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3474 ...{n}\) denote the standard basis for \(\C
+                                                  ^n\). Then%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3480.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3480 ...antage of doing linear algebra over \(\C
+                                                  \) is that every polynomia...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[68]
+
+LaTeX Warning: Command \C invalid in math mode on input line 3492.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3492 ...z = \lambda\zz\) for some \(\lambda\in\C
+                                                  \) and \(\zz\neq \mathbf{0...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-hermitian-eigen-real' on page 69 
+undefined on input line 3505.
+
+
+LaTeX Warning: Reference `x:theorem:thm-hermitian-eigen-real' on page 69 undefi
+ned on input line 3505.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-gram-schmidt' on page 69 undefine
+d on input line 3505.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3505.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3505 ... Algorithm} applies equally well in \(\C
+                                                  ^n\), as long as we replac...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \C invalid in math mode on input line 3507.
+
+
+! LaTeX Error: Command \C unavailable in encoding TU.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3507 ...here exists an orthonormal basis of \(\C
+                                                  ^n\) consisting of eigenve...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [69]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing) [70]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-complex-spectral' on page 71 unde
+fined on input line 3561.
+
+
+LaTeX Warning: Reference `x:theorem:thm-complex-spectral' on page 71 undefined 
+on input line 3561.
+
+
+Overfull \hbox (9.04181pt too wide) in paragraph at lines 3571--3572
+[]\TU/Latte-Regular(0)/m/n/10 Using Schur’s Theorem, we can obtain a famous res
+ult, known as the Cayley-Hamilton
+ []
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-schurr' on page 71 undefined on i
+nput line 3582.
+
+
+LaTeX Warning: Reference `x:theorem:thm-schurr' on page 71 undefined on input l
+ine 3582.
+
+[71]
+************************************************
+Section 4.5 Matrix Factorizations and Eigenvalues
+************************************************
+************************************************
+Subsection 4.5.1 Matrix Factorizations
+************************************************
+************************************************
+Subsubsection 4.5.1.1 Positive Operators
+************************************************
+
+Overfull \hbox (5.9292pt too wide) in paragraph at lines 3643--3643
+[] []\TU/Latte-Regular(0)/m/n/10 Some books will define positive-
+ []
+
+
+Overfull \hbox (8.62209pt too wide) in paragraph at lines 3643--3643
+\TU/Latte-Regular(0)/m/n/10 dition $[][]\OML/cmm/m/it/10 A[]$ \TU/Latte-Regular
+(0)/m/n/10 without the require-
+ []
+
+
+Overfull \hbox (4.76009pt too wide) in paragraph at lines 3643--3643
+\TU/Latte-Regular(0)/m/n/10 ric/hermitian. However, we will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3643--3644
+
+ []
+
+[72]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+************************************************
+Subsubsection 4.5.1.2 Singular Value Decomposition
+************************************************
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing) [73]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Overfull \hbox (221.65085pt too wide) in paragraph at lines 1--3710
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3711--3711
+[][]$[][][][] [] [][][][][] [] [][][] [] [][][][][][] [] [][][][][][][] [] [][]
+[][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][] [] [][][][][][][][] 
+[]
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 3733--3734
+
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing) [74]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [75]
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [76]
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 3896--3896
+[][]$[][][] [] [][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][] [] []
+[][][][][][] [] [][][][] [] [][] [] [][][] [] [][] [] [][][][][][][][] [] [][][
+][][] []
+ []
+
+************************************************
+Subsubsection 4.5.1.3 Polar Decomposition
+************************************************
+[77]
+************************************************
+Subsubsection 4.5.1.4 QR Factorization
+************************************************
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [78]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+************************************************
+Subsection 4.5.2 Computing Eigenvalues
+************************************************
+************************************************
+Subsubsection 4.5.2.1 The Power Method
+************************************************
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing) [79]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing
+Overfull \hbox (155.24997pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (306.4515pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][]  
+ []
+
+)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+************************************************
+Subsubsection 4.5.2.2 The QR Algorithm
+************************************************
+[80]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+************************************************
+Worksheet 4.6 Worksheet: Singular Value Decomposition
+************************************************
+[81]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
+* v-part:(T,H,B)=(35.56593pt, 723.83812pt, 35.56593pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=543.16313pt
+* \textheight=723.83812pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-66.77155pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=29.0pt
+* \marginparwidth=140.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+LaTeX Warning: Hyper reference `x:section:section-matrix-factor' on page 82 und
+efined on input line 4095.
+
+
+LaTeX Warning: Reference `x:section:section-matrix-factor' on page 82 undefined
+ on input line 4095.
+
+
+LaTeX Warning: Hyper reference `x:section:section-matrix-factor' on page 82 und
+efined on input line 4097.
+
+
+LaTeX Warning: Reference `x:section:section-matrix-factor' on page 82 undefined
+ on input line 4097.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [82
+
+]
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [83
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4184--4184
+
+ []
+
+[84
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4188--4188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4191--4191
+
+ []
+
+[85
+
+]
+************************************************
+Chapter 5 Change of Basis
+************************************************
+Chapter 5.
+************************************************
+Section 5.1 The matrix of a linear transformation
+************************************************
+
+LaTeX Warning: Hyper reference `x:example:ex-matrix-trans' on page 86 undefined
+ on input line 4209.
+
+
+LaTeX Warning: Reference `x:example:ex-matrix-trans' on page 86 undefined on in
+put line 4209.
+
+
+LaTeX Warning: Hyper reference `x:chapter:ch-linear-trans' on page 86 undefined
+ on input line 4209.
+
+
+LaTeX Warning: Reference `x:chapter:ch-linear-trans' on page 86 undefined on in
+put line 4209.
+
+
+LaTeX Warning: Hyper reference `x:definition:def-coefficient-iso' on page 86 un
+defined on input line 4219.
+
+
+LaTeX Warning: Reference `x:definition:def-coefficient-iso' on page 86 undefine
+d on input line 4219.
+
+
+LaTeX Warning: Hyper reference `x:section:sec-isomorphism' on page 86 undefined
+ on input line 4219.
+
+
+LaTeX Warning: Reference `x:section:sec-isomorphism' on page 86 undefined on in
+put line 4219.
+
+
+LaTeX Warning: Hyper reference `x:figure:fig_transformation_matrix' on page 86 
+undefined on input line 4219.
+
+
+LaTeX Warning: Reference `x:figure:fig_transformation_matrix' on page 86 undefi
+ned on input line 4219.
+
+
+Overfull \hbox (9.57904pt too wide) detected at line 4245
+\OML/cmm/m/it/10 T[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 ([])) 
+= [] [] = [] []
+ []
+
+[86
+
+
+]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing) [87] [88] [89]
+
+LaTeX Warning: Hyper reference `x:figure:fig-basis-cube' on page 90 undefined o
+n input line 4390.
+
+
+LaTeX Warning: Reference `x:figure:fig-basis-cube' on page 90 undefined on inpu
+t line 4390.
+
+
+LaTeX Warning: File `external/images/basis_cube.pdf' not found on input line 43
+96.
+
+! Unable to load picture or PDF file 'external/images/basis_cube.pdf'.
+<to be read again> 
+                   }
+l.4396 ...newidth]{external/images/basis_cube.pdf}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4396 ...newidth]{external/images/basis_cube.pdf}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: external/images/basis_cube.pdf Graphic file (type pdf)
+<use external/images/basis_cube.pdf>
+! Unable to load picture or PDF file 'external/images/basis_cube.pdf'.
+<to be read again> 
+                   \GPT@clipend 
+l.4396 ...newidth]{external/images/basis_cube.pdf}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-change-basis-transformation' on p
+age 90 undefined on input line 4400.
+
+
+LaTeX Warning: Reference `x:theorem:thm-change-basis-transformation' on page 90
+ undefined on input line 4400.
+
+[90]
+************************************************
+Section 5.2 The matrix of a linear operator
+************************************************
+[91]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Overfull \hbox (9.2807pt too wide) detected at line 4515
+[]
+ []
+
+[92] [93]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [94]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+Overfull \hbox (2.39206pt too wide) in paragraph at lines 4593--4595
+\TU/Latte-Regular(0)/m/n/10 The \TU/Latte-Regular(0)/b/n/10 change matrix \TU/L
+atte-Regular(0)/m/n/10 with respect to ordered bases $\OML/cmm/m/it/10 B; D$ \T
+U/Latte-Regular(0)/m/n/10 of $\OML/cmm/m/it/10 V$ \TU/Latte-Regular(0)/m/n/10 i
+s denoted $\OML/cmm/m/it/10 P[]$\TU/Latte-Regular(0)/m/n/10 ,
+ []
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-change-matrix' on page 95 undefin
+ed on input line 4620.
+
+
+LaTeX Warning: Reference `x:theorem:thm-change-matrix' on page 95 undefined on 
+input line 4620.
+
+[95]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-change-basis-transformation' on p
+age 96 undefined on input line 4626.
+
+
+LaTeX Warning: Reference `x:theorem:thm-change-basis-transformation' on page 96
+ undefined on input line 4626.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-similar-properties' on page 96 un
+defined on input line 4642.
+
+
+LaTeX Warning: Reference `x:theorem:thm-similar-properties' on page 96 undefine
+d on input line 4642.
+
+************************************************
+Section 5.3 Direct Sums and Invariant Subspaces
+************************************************
+************************************************
+Subsection 5.3.1 Invariant subspaces
+************************************************
+[96]
+************************************************
+Subsection 5.3.2 Eigenspaces
+************************************************
+
+Overfull \hbox (37.18178pt too wide) in paragraph at lines 4696--4705
+\TU/Latte-Regular(0)/m/n/10 where the diagonal blocks are square matrices, then
+ $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) = [](\OML/cmm/m/it/10 
+A[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 ) [] [](\OML/cmm/m/
+it/10 A[]\OT1/cmr/m/n/10 )$
+ []
+
+[97]
+************************************************
+Subsection 5.3.3 Direct Sums
+************************************************
+[98]
+
+LaTeX Warning: Hyper reference `x:example:eg-direct-sum-basis' on page 99 undef
+ined on input line 4773.
+
+
+LaTeX Warning: Reference `x:example:eg-direct-sum-basis' on page 99 undefined o
+n input line 4773.
+
+
+Overfull \hbox (15.71487pt too wide) in paragraph at lines 4777--4779
+\TU/Latte-Regular(0)/m/n/10 erator $\OML/cmm/m/it/10 T \OT1/cmr/m/n/10 : \OML/c
+mm/m/it/10 V \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 V$\TU/Latte-Regular(0)/m/n/10 
+. Let $\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f[][]\OML/cmm/m/
+it/10 ; [][]; [] ; [][]\OMS/cmsy/m/n/10 g$ \TU/Latte-Regular(0)/m/n/10 and let 
+$\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f[][]\OML/cmm/m/it/10 
+; [][]; [] ; [][]\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (12.4636pt too wide) in paragraph at lines 4780--4781
+\TU/Latte-Regular(0)/b/n/10 Solution\TU/Latte-Regular(0)/m/n/10 .[] Since we do
+n’t know the map $\OML/cmm/m/it/10 T$ \TU/Latte-Regular(0)/m/n/10 or anything a
+bout the bases $\OML/cmm/m/it/10 B[]; B[]$\TU/Latte-Regular(0)/m/n/10 ,
+ []
+
+[99]
+************************************************
+Worksheet 5.4 Worksheet: generalized eigenvectors
+************************************************
+[100]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
+* v-part:(T,H,B)=(35.56593pt, 723.83812pt, 35.56593pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=543.16313pt
+* \textheight=723.83812pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-66.77155pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=29.0pt
+* \marginparwidth=140.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [101
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4839--4839
+
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 4853--4853
+
+ []
+
+[102
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4858--4858
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4865--4865
+
+ []
+
+[103
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4874--4874
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4877--4877
+
+ []
+
+[104
+
+]
+************************************************
+Section 5.5 Generalized eigenspaces
+************************************************
+
+LaTeX Warning: Hyper reference `x:example:eg-invariant-block' on page 105 undef
+ined on input line 4887.
+
+
+LaTeX Warning: Reference `x:example:eg-invariant-block' on page 105 undefined o
+n input line 4887.
+
+
+LaTeX Warning: Hyper reference `x:section:subsec-eigen-basics' on page 105 unde
+fined on input line 4900.
+
+
+LaTeX Warning: Reference `x:section:subsec-eigen-basics' on page 105 undefined 
+on input line 4900.
+
+[105
+
+]
+
+LaTeX Warning: Hyper reference `x:section:sec-jordan-form' on page 106 undefine
+d on input line 4946.
+
+
+LaTeX Warning: Reference `x:section:sec-jordan-form' on page 106 undefined on i
+nput line 4946.
+
+************************************************
+Section 5.6 Jordan Canonical Form
+************************************************
+
+LaTeX Warning: Hyper reference `x:theorem:thm-nullspace-power' on page 106 unde
+fined on input line 4955.
+
+
+LaTeX Warning: Reference `x:theorem:thm-nullspace-power' on page 106 undefined 
+on input line 4955.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-gen-eigen-decomp' on page 106 und
+efined on input line 4955.
+
+
+LaTeX Warning: Reference `x:theorem:thm-gen-eigen-decomp' on page 106 undefined
+ on input line 4955.
+
+[106]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-gen-eigen-props' on page 107 unde
+fined on input line 4979.
+
+
+LaTeX Warning: Reference `x:theorem:thm-gen-eigen-props' on page 107 undefined 
+on input line 4979.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-gen-eigen-props' on page 107 unde
+fined on input line 4990.
+
+
+LaTeX Warning: Reference `x:theorem:thm-gen-eigen-props' on page 107 undefined 
+on input line 4990.
+
+
+Overfull \hbox (0.83531pt too wide) in paragraph at lines 4990--4991
+[]\TU/Latte-Regular(0)/m/n/10 One of the ways to see that $[] \OML/cmm/m/it/10 
+G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 m[]$
+ \TU/Latte-Regular(0)/m/n/10 is to consider $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+M[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \O
+ML/cmm/m/it/10 ^^U[]I[]\OT1/cmr/m/n/10 )[]$\TU/Latte-Regular(0)/m/n/10 .
+ []
+
+[107]
+
+LaTeX Warning: Hyper reference `x:theorem:thm-block-eigen' on page 108 undefine
+d on input line 4991.
+
+
+LaTeX Warning: Reference `x:theorem:thm-block-eigen' on page 108 undefined on i
+nput line 4991.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-nullspace-power' on page 108 unde
+fined on input line 5003.
+
+
+LaTeX Warning: Reference `x:theorem:thm-nullspace-power' on page 108 undefined 
+on input line 5003.
+
+
+Overfull \hbox (26.67986pt too wide) detected at line 5022
+\OML/cmm/m/it/10 J\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4) = [] 
+\OML/cmm/m/it/10 ; J\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) = 
+[] \OML/cmm/m/it/10 ; J\OT1/cmr/m/n/10 (4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\O
+ML/cmm/m/it/10 i\OT1/cmr/m/n/10 ) = [] []
+ []
+
+[108]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+
+LaTeX Warning: Hyper reference `x:insight:jordan-chain-basis' on page 109 undef
+ined on input line 5096.
+
+
+LaTeX Warning: Reference `x:insight:jordan-chain-basis' on page 109 undefined o
+n input line 5096.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+
+LaTeX Warning: Hyper reference `x:example:ex-jordan-form1' on page 109 undefine
+d on input line 5200.
+
+
+LaTeX Warning: Reference `x:example:ex-jordan-form1' on page 109 undefined on i
+nput line 5200.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [109] [110] [111] [112]
+
+LaTeX Warning: Hyper reference `x:example:ex-jordan-form1' on page 113 undefine
+d on input line 5217.
+
+
+LaTeX Warning: Reference `x:example:ex-jordan-form1' on page 113 undefined on i
+nput line 5217.
+
+[113]
+
+LaTeX Warning: Hyper reference `x:exercise:ex-jordan-form2' on page 114 undefin
+ed on input line 5225.
+
+
+LaTeX Warning: Reference `x:exercise:ex-jordan-form2' on page 114 undefined on 
+input line 5225.
+
+[114]
+************************************************
+Appendix A Computational Tools
+************************************************
+Appendix A.
+************************************************
+Section A.1 Jupyter
+************************************************
+File: generated/youtube/video-1.jpg Graphic file (type bmp)
+<generated/youtube/video-1.jpg>
+
+
+
+<QR code requested for "https://www.youtube.com/watch?v=VUfp7AQdxhk" in version
+ 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Calculating QR code for "https://www.youtube.com/watch?v=VUfp7AQdxhk" in versi
+on 4-Q.>
+<Splitting off block 1> <Splitting off block 2> <Making error block 1>
+<Making error block 2> <Interleaving datablocks of length 24\ and 25:  1, 2,
+3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+24, .> <Interleaving errorblocks of length 26:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
+.><Interleaving complete.> <Writing data... done.>
+<Applying Mask 0... done. Calculating penalty... penalty is 1405>
+<Applying Mask 1... done. Calculating penalty... penalty is 1350>
+<Applying Mask 2... done. Calculating penalty... penalty is 1440>
+<Applying Mask 3... done. Calculating penalty... penalty is 1304>
+<Applying Mask 4... done. Calculating penalty... penalty is 1332>
+<Applying Mask 5... done. Calculating penalty... penalty is 1330>
+<Applying Mask 6... done. Calculating penalty... penalty is 1378>
+<Applying Mask 7... done. Calculating penalty... penalty is 1392>
+<Selected Mask 3>
+<Encoding and writing format string... done.>
+<Encoding and writing version information... done.>
+<Saving QR code to memory... done.>
+<Writing QR code to aux file... done.>
+<Printing matrix... done.>
+
+
+Overfull \hbox (0.39972pt too wide) in paragraph at lines 5267--5275
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5287--5287
+[][]$[][][][][][][][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][] [] []
+[][][] [] [][] [] [][][][][][][][][][][][][][][][][][][][] [] [][] [] [][] [] [
+][] [] [][][] []
+ []
+
+************************************************
+Section A.2 Python basics
+************************************************
+
+Underfull \hbox (badness 10000) in paragraph at lines 5289--5297
+
+ []
+
+[115
+
+
+]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [116]
+************************************************
+Section A.3 SymPy for linear algebra
+************************************************
+************************************************
+Subsection A.3.1 SymPy basics
+************************************************
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+
+LaTeX Warning: Hyper reference `x:subsection:subsec-sympy-matrix' on page 117 u
+ndefined on input line 5380.
+
+
+LaTeX Warning: Reference `x:subsection:subsec-sympy-matrix' on page 117 undefin
+ed on input line 5380.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing) [117]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [118]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+************************************************
+Subsection A.3.2 Matrices in SymPy
+************************************************
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+Overfull \hbox (1.63748pt too wide) in paragraph at lines 5457--5462
+\TU/Inconsolatazi4-Regular.otf(0)/m/n/10 A=Matrix([[1,2,3],[4,5,6]])\TU/Latte-R
+egular(0)/m/n/10 , where of course the size and entries can be changed
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing) [119]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+[120]
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [121]
+************************************************
+Appendix B Solutions to Selected Exercises
+************************************************
+[122]
+Appendix B.
+
+LaTeX Warning: Hyper reference `x:exercise:ex-more-props' on page 123 undefined
+ on input line 5580.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-zero-mult' on page 123 undefined 
+on input line 5592.
+
+
+LaTeX Warning: Reference `x:theorem:thm-zero-mult' on page 123 undefined on inp
+ut line 5592.
+
+[123
+
+]
+
+LaTeX Warning: Hyper reference `g:exercise:idp19' on page 124 undefined on inpu
+t line 5626.
+
+
+LaTeX Warning: Hyper reference `x:appendix:ch-computation' on page 124 undefine
+d on input line 5643.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [124]
+
+LaTeX Warning: Hyper reference `g:exercise:idp20' on page 125 undefined on inpu
+t line 5670.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+
+LaTeX Warning: Hyper reference `x:subsection:subsec-sympy-matrix' on page 125 u
+ndefined on input line 5716.
+
+
+LaTeX Warning: Reference `x:subsection:subsec-sympy-matrix' on page 125 undefin
+ed on input line 5716.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [125]
+
+LaTeX Warning: Hyper reference `g:exercise:idp31' on page 126 undefined on inpu
+t line 5732.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+
+LaTeX Warning: Hyper reference `g:exercise:idp32' on page 126 undefined on inpu
+t line 5746.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [126]
+
+LaTeX Warning: Hyper reference `g:exercise:idp33' on page 127 undefined on inpu
+t line 5781.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp34' on page 127 undefined on inpu
+t line 5795.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp37' on page 127 undefined on inpu
+t line 5812.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing) [127]
+
+LaTeX Warning: Hyper reference `g:exercise:idp40' on page 128 undefined on inpu
+t line 5864.
+
+[128]
+
+LaTeX Warning: Hyper reference `g:exercise:idp43' on page 129 undefined on inpu
+t line 5886.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp44' on page 129 undefined on inpu
+t line 5894.
+
+
+Overfull \hbox (8.2233pt too wide) in paragraph at lines 5896--5897
+\TU/Latte-Regular(0)/b/n/10 Solution\TU/Latte-Regular(0)/m/n/10 .[] Again, we o
+nly need to add one vector from the standard basis $\OMS/cmsy/m/n/10 f\OT1/cmr/
+m/n/10 1\OML/cmm/m/it/10 ; x; x[]; x[]\OMS/cmsy/m/n/10 g$\TU/Latte-Regular(0)/m
+/n/10 ,
+ []
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp51' on page 129 undefined on inpu
+t line 5901.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp52' on page 129 undefined on inpu
+t line 5912.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [129]
+
+LaTeX Warning: Hyper reference `g:exercise:idp53' on page 130 undefined on inpu
+t line 5937.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp54' on page 130 undefined on inpu
+t line 5959.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+Overfull \hbox (21.98715pt too wide) in paragraph at lines 5964--5973
+\TU/Latte-Regular(0)/m/n/10 for a general element $\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 a; b\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]$\TU/Latte-Regu
+lar(0)/m/n/10 . This is equivalent to the matrix equation $[] [] \OT1/cmr/m/n/1
+0 =
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing) [130]
+
+LaTeX Warning: Hyper reference `x:exercise:ex_lintrans-indep' on page 131 undef
+ined on input line 5995.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-lt-props' on page 131 undefined o
+n input line 6007.
+
+
+LaTeX Warning: Reference `x:theorem:thm-lt-props' on page 131 undefined on inpu
+t line 6007.
+
+
+LaTeX Warning: Hyper reference `x:exercise:ex-dimension-injection-surjection' o
+n page 131 undefined on input line 6015.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-define-using-basis' on page 131 u
+ndefined on input line 6025.
+
+
+LaTeX Warning: Reference `x:theorem:thm-define-using-basis' on page 131 undefin
+ed on input line 6025.
+
+[131]
+
+LaTeX Warning: Hyper reference `g:exercise:idp61' on page 132 undefined on inpu
+t line 6049.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp62' on page 132 undefined on inpu
+t line 6064.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp63' on page 132 undefined on inpu
+t line 6079.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp76' on page 132 undefined on inpu
+t line 6087.
+
+[132]
+
+LaTeX Warning: Hyper reference `x:exercise:ex-norm-sum-square' on page 133 unde
+fined on input line 6098.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp77' on page 133 undefined on inpu
+t line 6108.
+
+
+LaTeX Warning: Hyper reference `x:definition:def-dot-prod-norm' on page 133 und
+efined on input line 6110.
+
+
+LaTeX Warning: Reference `x:definition:def-dot-prod-norm' on page 133 undefined
+ on input line 6110.
+
+
+LaTeX Warning: Hyper reference `x:exercise:ex-orthogonal-set' on page 133 undef
+ined on input line 6120.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [133]
+
+LaTeX Warning: Hyper reference `x:exercise:ex-test-span' on page 134 undefined 
+on input line 6148.
+
+
+Overfull \hbox (20.59154pt too wide) in paragraph at lines 6171--6172
+[]\TU/Latte-Regular(0)/m/n/10 Soon, we’ll see that the quantity we computed whe
+n showing that $[] [] []\OMS/cmsy/m/n/10 f[][]\OML/cmm/m/it/10 ; [][]; [][]\OMS
+/cmsy/m/n/10 g$
+ []
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp83' on page 134 undefined on inpu
+t line 6176.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [134]
+
+LaTeX Warning: Hyper reference `g:exercise:idp90' on page 135 undefined on inpu
+t line 6211.
+
+
+LaTeX Warning: Hyper reference `x:theorem:thm-projection' on page 135 undefined
+ on input line 6217.
+
+
+LaTeX Warning: Reference `x:theorem:thm-projection' on page 135 undefined on in
+put line 6217.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp92' on page 135 undefined on inpu
+t line 6219.
+
+
+Overfull \hbox (33.26944pt too wide) detected at line 6224
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 b \OT
+1/cmr/m/n/10 + 3\OML/cmm/m/it/10 c; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 a \OT1/cm
+r/m/n/10 + \OML/cmm/m/it/10 b; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 c; \OT1/cmr/m/
+n/10 4\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 b \OT1/cmr/m/n/1
+0 + 3\OML/cmm/m/it/10 c; a \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 4\OML/cmm/m/it/
+10 c\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 a\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; 
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cm
+r/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1) + \OML/cmm/m/it/10 b\OT1/cmr/m/
+n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1
+/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0) + \OML/cmm/m/it/10 c\OT1/cmr
+/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/1
+0 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\
+OT1/cmr/m/n/10 4)[]
+ []
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+
+LaTeX Warning: Hyper reference `g:exercise:idp102' on page 135 undefined on inp
+ut line 6245.
+
+[135]
+
+LaTeX Warning: Hyper reference `g:exercise:idp104' on page 136 undefined on inp
+ut line 6253.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing) [136]
+[137]
+
+LaTeX Warning: Hyper reference `g:exercise:idp107' on page 138 undefined on inp
+ut line 6348.
+
+
+LaTeX Warning: Hyper reference `g:exercise:idp110' on page 138 undefined on inp
+ut line 6362.
+
+[138]
+
+LaTeX Warning: Hyper reference `g:exercise:idp123' on page 139 undefined on inp
+ut line 6422.
+
+[139]
+
+LaTeX Warning: Hyper reference `g:exercise:idp124' on page 140 undefined on inp
+ut line 6458.
+
+[140]
+
+LaTeX Warning: Hyper reference `g:exercise:idp127' on page 141 undefined on inp
+ut line 6486.
+
+\openout4 = `3410notes.listing'.
+
+(./3410notes.listing)
+\openout4 = `3410notes.listing'.
+
+ (./3410notes.listing)
+
+LaTeX Warning: Hyper reference `g:exercise:idp131' on page 141 undefined on inp
+ut line 6517.
+
+[141]
+
+LaTeX Warning: Hyper reference `x:exercise:ex-jordan-form2' on page 142 undefin
+ed on input line 6531.
+
+[142]
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+ [143] (./3410notes.aux
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+Package polyglossia Info: Option: english variant=american (with additional pat
+terns).
+
+<Reading QR code for "https://www.youtube.com/watch?v=VUfp7AQdxhk" at level 4-Q
+ from aux file.>
+)
+\snap@out=\write9
+\openout9 = `3410notes.dep'.
+
+
+Dependency list written on 3410notes.dep.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `3410notes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `3410notes.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  560D24B4274FF60D6E46F92F7DBA4C5C;2828.
+ ) 
+Here is how much of TeX's memory you used:
+ 50508 strings out of 477220
+ 1141168 string characters out of 5832721
+ 1880695 words of memory out of 5000000
+ 68954 multiletter control sequences out of 15000+600000
+ 413416 words of font info for 111 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 86i,21n,304p,1754b,2751s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 3410notes.pdf (148 pages).

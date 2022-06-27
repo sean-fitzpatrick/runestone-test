@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch-linear-trans">
+  <title>Linear Transformations</title>
+
+  <introduction>
+    <p>
+      At an elementary level, linear algebra is the study of vectors (in <m>\R^n</m>)
+      and matrices. Of course, much of that study revolves around systems of equations.
+      Recall that if <m>\xx</m> is a vector in <m>\R^n</m> (viewed as an <m>n\times 1</m> column matrix),
+      and <m>A</m> is an <m>m\times n</m> matrix, then <m>\yy=A\xx</m> is a vector in <m>\R^m</m>.
+      Thus, multiplication by <m>A</m> produces a function from <m>\R^n</m> to <m>\R^m</m>.
+    </p>
+
+    <p>
+      This example motivates the definition of a <em>linear transformation</em>,
+      and as we'll see, provides the archetype for all linear transformations in the finite-dimensional setting.
+      Many areas of mathematics can be viewed at some fundamental level as the study of sets with certain properties,
+      and the functions between them.
+      Linear algebra is no different. The sets in this context are, of course, vector spaces.
+      Since we care about the linear algebraic structure of vector spaces,
+      it should come as no surprise that we're most interested in functions that preserve this structure.
+      That is precisely the idea behind linear transformations.
+    </p>
+  </introduction>
+
+  <xi:include href="./section_transform_intro.ptx"/>
+  <xi:include href="./section_kernel_image.ptx"/>
+  <xi:include href="./section_isomorphism.ptx"/>
+  <xi:include href="./worksheet-transformation.ptx"/>
+  <xi:include href="./worksheet-recurrence.ptx"/>
+</chapter>

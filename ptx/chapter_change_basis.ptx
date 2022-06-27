@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch-change-basis">
+  <title>Change of Basis</title>
+
+  <xi:include href="./section_transf_matrix.ptx"/>
+  <xi:include href="./section_operator_matrix.ptx"/>
+  <xi:include href="./section_direct_sum.ptx"/>
+  <xi:include href="./worksheet-gen-eigen.ptx"/>
+  <xi:include href="./section_gen_eigen.ptx"/>
+  <xi:include href="./section_jordan_form.ptx"/>
+</chapter>

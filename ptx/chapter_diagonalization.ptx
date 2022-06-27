@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch-diagonalization">
+  <title>Diagonalization</title>
+  <introduction>
+    <p>
+      In this chapter we look at the diagonalization problem for real symmetric matrices.
+      You probably saw how to compute eigenvalues and eigenvectors in your elementary linear algebra course.
+      You may have also seen that in some cases, the number of independent eigenvectors associated to an
+      <m>n\times n</m> matrix <m>A</m> is <m>n</m>, in which case it is possible to <q>diagonalize</q> <m>A</m>.
+      In other cases, we don't get <q>enough</q> eigenvectors for diagonalization.
+    </p>
+
+    <p>
+      In the first part of this section, we review some basic facts about eigenvalues and eigenvectors.
+      We will then move on to look at the special case of symmetric matrices,
+      where we will see that it is always possible to diagonalize,
+      and moreover, that it is possible to do so using an orthonormal basis of eigenvectors.
+    </p>
+  </introduction>
+
+  <xi:include href="./section_eigen_intro.ptx"/>
+  <xi:include href="./section_diagonalization.ptx"/>
+  <xi:include href="./section_quadratic.ptx"/>
+  <xi:include href="./section_complex_diag.ptx"/>
+  <xi:include href="./section_matrix_factor.ptx"/>
+  <xi:include href="./worksheet-svd.ptx"/>
+</chapter>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="sec-subspace">
+  <title>Subspaces</title>
+  <p>
+    We begin with a motivating example. Let <m>\vv</m> be a nonzero vector in some vector space <m>V</m>.
+    Consider the set <m>S = \{c\vv\,|\, c\in \R\}</m>.
+    Given <m>a\vv,b\vv\in S</m>, notice that <m>a\vv+b\vv=(a+b)\vv</m> is also an element of <m>S</m>,
+    since <m>a+b</m> is again a real number.
+    Moreover, for any real number <m>c</m>, <m>c(a\vv)=(ca)\vv</m> is an element of <m>S</m>.
+  </p>
+
+  <p>
+    There are two important observations: one is that performing addition or scalar multiplication on elements of <m>S</m>
+    produces a new element of <m>S</m>. The other is that this addition and multiplication is essentially that of <m>\R</m>.
+    The vector <m>\vv</m> is just a placeholder. Addition simply involves the real number addition <m>a+b</m>.
+    Scalar multiplication becomes the real number multiplication <m>ca</m>.
+    So we expect that the rules for addition and scalar multiplication in <m>S</m> follow those in <m>\R</m>,
+    so that <m>S</m> is like a <q>copy</q> of <m>\R</m> inside of <m>V</m>.
+    In particular, addition and scalar multiplication in <m>S</m> will satisfy all the vector space axioms,
+    so that <m>S</m> deserves to be considered a vector space in its own right.
+  </p>
+
+  <p>
+    A similar thing happens if we consider a set <m>U=\{a\vv+b\ww\,|\, a,b\in\R\}</m>,
+    where <m>\vv,\ww</m> are two vectors in a vector space <m>V</m>.
+    Given two elements <m>a_1\vv+a_2\ww,b_1\uu+b_2\ww</m>, we have
+    <me>
+      (a_1\vv+a_2\ww)+(b_1\vv+b_2\ww) = (a_1+b_1)\vv+(a_2+b_2)\ww
+    </me>,
+    which is again an element of <m>U</m>, and the addition rule looks an awful lot like the addition rule
+    <m>(a_1,a_2)+(b_1,b_2)=(a_1+b_1,a_2+b_2)</m> in <m>\R^2</m>.
+    Scalar multiplication follows a similar pattern.
+  </p>
+
+  <p>
+    In general we are often interested in subsets of vectors spaces that behave like <q>copies</q>
+    of smaller vector spaces contained within the larger space.
+    The technical term for this is <em>subspace</em>.
+  </p>
+
+  <definition xml:id="def-subspace">
+    <statement>
+      <p>
+        Let <m>V</m> be a vector space, and let <m>U\subseteq V</m> be a subset.
+        We say that <m>U</m> is a <term>subspace</term> of <m>V</m> if <m>U</m>
+        is itself a vector space when using the addition and scalar multiplication of <m>V</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    If we were to follow the definition, then verifying that a subset <m>U</m> is a subspace would involve checking all ten vector space axioms.
+    Fortunately, this is not necessary. Since the operations are those of the vector space <m>V</m>,
+    most properties follow automatically, being inherited from those of <m>V</m>.
+  </p>
+
+  <theorem xml:id="thm-subspace-test">
+    <title>Subspace Test</title>
+    <statement>
+      <p>
+        Let <m>V</m> be a vector space and let <m>U\subseteq V</m> be a subset.
+        Then <m>U</m> is a subspace of <m>V</m> if and only if the following conditions are satisfied:
+        <ol>
+          <li>
+            <p>
+              <m>\zer\in U</m>, where <m>\zer</m> is the zero vector of <m>V</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>U</m> is closed under addition. That is, for all <m>\uu_1,\uu_2\in U</m>, we have <m>\uu_1+\uu_2\in U</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>U</m> is closed under scalar multiplication. That is, for all <m>\uu\in U</m> and <m>c\in\R</m>, <m>c\uu\in U</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <proof>
+      <p>
+        If <m>U</m> is a vector space, then clearly the second and third conditions must hold.
+        Since a vector space must be nonempty, there is some <m>\uu\in U</m>,
+        from which it follows that <m>\zer=0\uu\in U</m>.
+      </p>
+      <p>
+        Conversely, if all three conditions hold, we have axioms A1, A4, and S1 by assumption.
+        Axioms A2 and A3 hold since any vector in <m>U</m> is also a vector in <m>V</m>;
+        the same reasoning shows that axioms S2, S3, S4, and S5 hold.
+        Finally, axiom A5 holds because condition 3 ensures that <m>(-1)\uu\in U</m> for any <m>\uu\in U</m>,
+        and we know that <m>(-1)\uu=-\uu</m> by <xref ref="ex-more-props">Exercise</xref>.
+      </p>
+    </proof>
+
+  </theorem>
+
+  <p>
+    In some texts, the condition that <m>\zer\in U</m> is replaced by the requirement that <m>U</m> be nonempty.
+    Existence of <m>\zer</m> then follows from the fact that <m>0\vv=\zer</m>.
+    However, it is usually easy to check that a set contains the zero vector,
+    so it's the first thing one typically looks for when confirming that a subset is nonempty.
+  </p>
+
+  <example xml:id="ex-subspace-basic-examples">
+    <statement>
+      <p>
+        For any vector space <m>V</m>, the set <m>\{\zer\}</m> is a subspace,
+        known as the <em>trivial subspace</em>.
+      </p>
+      <p>
+        If <m>V=P(\R)</m> is the vector space of all polynomials,
+        then for any natural number <m>n</m>, the subset <m>U</m> of all polynomials of degree less than or equal to <m>n</m>
+        is a subspace of <m>V</m>. Another common type of polynomial subspace is the set of all polynomials with a given root.
+        For example, the set <m>U=\{p(x)\in P(\R)\,|\,p(1)=0\}</m> is easily confirmed to be a subspace.
+        However, a condition such as <m>p(1)=2</m> would <em>not</em> define a subspace,
+        since this condition is not satisfied by the zero polynomial.
+      </p>
+      <p>
+        In <m>\R^n</m>, we can define a subspace using one or more homogeneous linear equations.
+        For example, the set
+        <me>
+          \{(x,y,z)\,|\, 2x-3y+4z=0\}
+        </me>
+        is a subspace of <m>\R^3</m>. A non-homogeneous equation won't work, however, since it would exclude the zero vector.
+        Of course, we should expect that any non-linear equation fails to define a subspace,
+        although one is still expected to verify this by confirming the failure of one of the axioms.
+        For example, the set <m>S=\{(x,y)\,|\,x=y^2\}</m> is not a subspace;
+        although it contains the zero vector (since <m>0^2=0</m>), we have <m>(1,1)\in S</m>,
+        but <m>2(1,1)=(2,2)</m> does not belong to <m>S</m>.
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="ex-subspace-lines-and-planes">
+    <statement>
+      <p>
+        In the vector space <m>\R^3</m>, we can visualize subspaces geometrically.
+        There are precisely four types:
+        <ol>
+          <li>
+            <p>
+              The trivial vector space <m>\{\zer\}\subseteq \R^3</m>,
+              consisting of the origin alone.
+            </p>
+          </li>
+          <li>
+            <p>
+              Subspaces of the form <m>\{t\vv \,|\, \vv\in\R^3, \vv\neq \zer\}</m>.
+              These are lines through the origin, in the direction of the vector <m>\vv</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Subspaces of the form <m>\{s\vv+t\ww \,|\, \vv,\ww\in\R^3\}</m>,
+              where <m>\vv,\ww</m> are both nonzero vectors that are not <em>parallel</em>.
+              These are planes through the origin.
+            </p>
+
+            <p>
+              Note that we must insist that <m>\vv</m> is not parallel to <m>\ww</m>.
+              If <m>\ww = c\vv</m> for some scalar <m>c</m>, then
+              <me>
+                s\vv+t\ww = s\vv+t(c\vv) = s\vv+(tc)\vv = (s+tc)\vv
+              </me>,
+              and every vector in our set would be a multiple of <m>\vv</m>;
+              in other words, we'd once again have a line.
+            </p>
+
+            <p>
+              If you encountered the <em>cross product</em> in your first course in linear algebra,
+              or in a calculus course, then you can state the <q>non-parallel</q>
+              condition by the requirement that <m>\vv\times\ww\neq\zer</m>.
+              The vector <m>\vv\times\ww</m> is then a <em>normal vector</em> for the plane.
+            </p>
+          </li>
+          <li>
+            <p>
+              The entire vector space <m>\R^3\subseteq\R^3</m> also counts as a subspace:
+              every vector space is a subspace of itself.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </example>
+
+  <remark>
+    <statement>
+      <p>
+        Often we define subsets of a vector space by an equation.
+        For example, instead of specifying a plane through the origin in <m>\R^3</m>
+        using a pair of vectors, as we did in <xref ref="ex-subspace-lines-and-planes"/>,
+        we could define it using a single equation, of the form <m>ax+by+cz=0</m>,
+        where <m>a,b,c\in\R</m>, and <m>(x,y,z)</m> are coordinates in <m>\R^3</m>.
+      </p>
+
+      <p>
+        Given a vector space <m>V</m> and some equation (or other condition) that defines a subset,
+        one of the things we need to be able to do is determine whether or not the subset is in fact a subspace.
+        We do so using <xref ref="thm-subspace-test" text="title"/>.
+        Applying the subspace test is relatively straightforward,
+        but we would also like to develop some intiution to help us decide whether or not a subset is likely to be a subspace,
+        before attempting a proof.
+      </p>
+
+      <p>
+        There are a few relatively easy things we can check before we begin:
+        <ol>
+          <li>
+            <p>
+              Does the subset contain the zero vector?
+            </p>
+            <p>
+              This is part of the subspace test, of course, but it tends to be easy to check,
+              and if the answer is no, then we've already ruled out the possibility that this subset could be a subspace.
+            </p>
+          </li>
+          <li>
+            <p>
+              Is the equation defining the subset linear?
+            </p>
+            <p>
+              If not, your subset is probably not a subspace, and you should look for a counterexample.
+              For example, the set <m>\{(x,y)\in\R^2 \,|\, y=x^2\}</m> contains zero,
+              but it is defined by the nonlinear equation <m>y=x^2</m>.
+              This tells us that our set is unlikely to be a subspace, but we still have to demonstrate this.
+              Typically, we do so by showing that one of the two closure axioms fails.
+              For example, we know that <m>(1,1)</m> and <m>(2,4)</m> belong to the subset,
+              but <m>(1,1)+(2,4)=(3,5)</m>, and since <m>5\neq 3^2</m>,
+              the subset is not closed under addition, and therefore is not a subspace.
+            </p>
+          </li>
+          <li>
+            <p>
+              Is the equation defining the subset homogeneous?
+            </p>
+            <p>
+              Even if an equation is linear, it may fail to define a subspace due to the special role played by the zero vector.
+              For example, the plane in <m>\R^3</m> defined by the equation <m>x+2y-5z=4</m> is not a subspace.
+              The fastest way to see this is to note that the equation is not satisfied by the zero vector!
+              But both closure conditions fail as well. For example, the point <m>(2,1,0)</m> is on the plane.
+              But <m>2(2,1,0)=(4,2,0)</m> is not, since <m>4+2(2)-5(0)=8\neq 4</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </remark>
+  
+  <exercise xml:id="ex-subspace-check">
+    <introduction>
+      <p>
+        Determine whether or not the following subsets of vector spaces are subspaces.
+      </p>
+    </introduction>
+    <task>
+      <statement correct="yes">
+        <p>
+          The subset of <m>\mathbb{P}_3</m> consisting of all polynomials <m>p(x)</m>
+          such that <m>p(2)=0</m>.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          This equation may not appear linear, but it is: if <m>p(x)=ax^3+bx^2+cx+d</m>,
+          then <m>p(2)=8a+4b+2c+d=0</m> is a homogeneous linear equation.
+          The zero poloynomial is zero everywhere, including at <m>x=2</m>.
+          If <m>p(2)=0</m> and <m>q(2)=0</m>, then <m>(p+q)(2)=p(2)+q(2)=0+0=0</m>,
+          and for any scalar <m>c</m>, <m>(cp)(2)=c(p(2))=c(0)=0</m>.
+        </p>
+      </feedback>
+    </task>
+    <task>
+      <statement correct="no">
+        <p>
+          The subset of <m>\mathbb{P}_2</m> consisting of all irreducible quadratics.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          We can immediately rule this out as a subspace because the zero polynomial is neither irreducible nor quadratic.
+          Furthermore, it is not closed under addition: consider the sum of <m>x^2+1</m> and <m>4-x^2</m>.
+        </p>
+      </feedback>
+    </task>
+    <task>
+      <statement correct="no">
+        <p>
+          The set of all vectors <m>(x,y,z)\in\R^3</m> such that <m>xyz=0</m>.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          The equation is homogeneous, but it is not linear.
+          Although this set contains the zero vector, it is not closed under addition:
+          the vectors <m>(1,1,0)</m> and <m>(0,0,1)</m> belong to the set,
+          but their sum <m>(1,1,1)</m> does not.
+        </p>
+      </feedback>
+    </task>
+    <task>
+      <statement correct="yes">
+        <p>
+          The set of all vectors <m>(x,y,z)\in\R^3</m> such that <m>x+y=z</m>.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          The defining equation can be rearranged as <m>x+y-z=0</m>,
+          which you might recognize as the equation of a plane through the origin.
+          Since <m>0+0=0</m>, the set contains the zero vector.
+          To check closure under addition, suppose <m>(x_1,y_1,z_1)</m> and <m>(x_2,y_2,z_2)</m> are in the set.
+          This means that <m>x_1+y_1=z_1</m>, and <m>x_2+y_2=z_2</m>.
+          For the sum <m>(x_1+x_2,y_1+y_2,z_1+z_2)</m>, we have
+          <me>
+            (x_1+x_2)+(y_1+y_2) = (x_1+y_1)+(x_2+y_2)=z_1+z_2
+          </me>,
+          so the sum is in the set. And for any scalar <m>c</m>,
+          <m>cx_1+cy_1=c(x_1+y_1)=cz_1</m>, so <m>(cx_1,cy_1,cz_1)=c(x_1y_1z_1)</m> is in the set as well.
+        </p>
+      </feedback>
+    </task>
+  </exercise>
+
+  <p>
+    Let's try a few more examples.
+  </p>
+
+  <example>
+    <introduction>
+      <p>
+        Determine whether or not the following subsets are subspaces.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          The subset <m>\{(x-y, x+y+2, 2x-3y) \,|\, x,y\in\R\}\subseteq\R^3</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The clue here that this is not a subspace is the presence of the 2 in the second component.
+          Typically for a subspace, we expect to see linear expressions involving our variables,
+          but in linear algebra, the adjective <em>linear</em> doesn't imply the inclusion of constant terms the way it does in calculus.
+          The reason, again, is the special role of zero in a vector space.
+        </p>
+
+        <p>
+          While it's true that this set doesn't contain the zero vector (which rules it out as a subspace),
+          it's not as obvious: perhaps there are values of <m>x</m> and <m>y</m>
+          that give us <m>x+y+2=0</m>, and <m>x-y=0, 2x-3y=0</m> as well?
+          Solving a system of equations would tell us that indeed, this is not possible.
+        </p>
+
+        <p>
+          We could also show that the closure conditions fail.
+          Putting <m>x=1, y=0</m> gives the element <m>(1,3,2)</m>,
+          and putting <m>x=0,y=1</m> gives the element <m>(-1,3,-3)</m>.
+          Adding these, we get the vector <m>(0,6,-1)</m>.
+          Why is this not in the set? We would need <m>x-y=0</m>, so <m>x=y</m>.
+          Then <m>x+y+2=2x+2=6</m> implies <m>x=y=2</m>, but <m>2(2)-3(2)=-2\neq -3</m>.
+        </p>
+      </solution>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          The subset <m>\{p(x)\in \mathbb{P}_3\,|\, p(1)=p(2)\}\subseteq \mathbb{P}_3</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          At first glance, it may not be clear whether the condition <m>p(1)=p(2)</m> is linear.
+          One approach is to write out our polynomial in terms of coefficients.
+          If <m>p(x)=ax^3+bx^2+cx+d</m>, then <m>p(1)=p(2)</m> implies
+          <me>
+            a+b+c+d=8a+4b+2c+d
+          </me>,
+          or <m>7a+3b+c=0</m>, which is a homogeneous linear equation.
+          This isn't yet a proof <mdash/> we still have to apply the subspace test!
+        </p>
+
+        <p>
+          We can use the subspace test in terms of coefficients with the condition <m>7a+3b+c=0</m>,
+          or we can use the original condition directly.
+          First, the zero polynomial <m>\zer</m> satisfies <m>\zer(1)=\zer(2)</m>, since it's equal to zero everywhere.
+          Next, suppose we have polynomials <m>p(x),q(x)</m> with <m>p(1)=p(2)</m> and <m>q(1)=q(2)</m>.
+          Then
+          <me>
+            (p+q)(1)=p(1)+q(1)=p(2)+q(2)=(p+q)(2)
+          </me>,
+          and for any scalar <m>c</m>, <m>(cp)(1)=c(p(1))=c(p(2))=(cp)(2)</m>.
+          This shows that the set is closed under both addition and scalar multiplication.
+        </p>
+      </solution>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          The subset <m>\{A\in M_{2\times 2}(\R) \,|\, \det(A)=0\}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Here, we have the condition <m>\det(A)=0</m>, which is homogeneous, but is it linear?
+          If you remember a bit about the determinant,
+          you might recall that it behaves well with respect to multiplication, but not addition,
+          and indeed, this is going to mean that we don't have a subspace.
+        </p>
+
+        <p>
+          To see that this is the case, consider closure under addition.
+          The matrices <m>A=\bbm 1\amp 0\\0\amp 0\ebm</m> and <m>B=\bbm 0\amp 0\\0\amp 1\ebm</m>
+          both have determinant <m>0</m>, but <m>A+B=\bbm 1\amp 0\\0\amp 1\ebm</m> has determinant 1.
+          Therefore, <m>A</m> and <m>B</m> both belong to the set, but <m>A+B</m> does not.
+        </p>
+      </solution>
+    </task>
+  </example>
+
+  <p>
+    In the next section, we'll encounter perhaps the most fruitful source of subspaces: sets of linear combinations (or <em>spans</em>).
+    We will see that such sets are always subspaces, so if we can identify a subset as a span,
+    we know automatically that it is a subspace.
+  </p>
+
+  <p>
+    For example, in the last part of <xref ref="ex-subspace-check"/> above,
+    if the vector <m>(x,y,z)</m> satisfies <m>x+y=z</m>, then we have
+    <me>
+      (x,y,z)=(x,y,x+y)=(x,0,x)+(0,y,y)=x(1,0,1)+y(0,1,1)
+    </me>,
+    so every vector in the set is a linear combination of the vectors <m>(1,0,1)</m> and <m>(0,1,1)</m>.
+  </p>
+</section>
